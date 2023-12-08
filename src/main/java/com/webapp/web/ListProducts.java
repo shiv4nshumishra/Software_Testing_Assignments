@@ -1,5 +1,3 @@
-package com.simplilearn.webapp.web;
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.ResultSet;
@@ -10,18 +8,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.simplilearn.webapp.db.DatabaseConnection;
+import com.webapp.web.DatabaseConnection;
 
-/**
- * Servlet implementation class ListProducts
- */
 @WebServlet("/list-product")
 public class ListProducts extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	/**
-	 * Get all products from db and show as table.
-	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 

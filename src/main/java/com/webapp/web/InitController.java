@@ -1,5 +1,3 @@
-package com.simplilearn.webapp.web;
-
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -9,8 +7,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.simplilearn.webapp.db.DatabaseConnection;
+import com.webapp.web.DatabaseConnection;
 
+@SuppressWarnings("serial")
 @WebServlet("/init-connection")
 public class InitController extends HttpServlet {
 

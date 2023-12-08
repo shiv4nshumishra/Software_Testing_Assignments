@@ -1,4 +1,3 @@
-package com.simplilearn.webapp.web;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -12,9 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.simplilearn.webapp.db.DatabaseConnection;
 
-/**
- * Servlet implementation class AddProduct
- */
 @WebServlet("/add-product")
 public class AddProduct extends HttpServlet {
 	private static final long serialVersionUID = 1L;

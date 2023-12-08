@@ -1,5 +1,3 @@
-package com.simplilearn.webapp.db;
-
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,11 +6,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-/**
- * This class is for DatabaseConnection.
- * 
- * @author khanw
- */
 public class DatabaseConnection {
 
 	// data source properties
@@ -26,11 +19,6 @@ public class DatabaseConnection {
 	PreparedStatement prstm = null;
 	CallableStatement callstm = null;
 
-	/**
-	 * This method initialize connection.
-	 * 
-	 * @return connection.
-	 */
 	public Connection init() {
 		try {
 			// step1 : Register Driver (optional)
@@ -50,9 +38,6 @@ public class DatabaseConnection {
 		return connection;
 	}
 
-	/**
-	 * Closed the connection.
-	 */
 	public void close() {
 		try {
 			connection.close();
@@ -61,12 +46,6 @@ public class DatabaseConnection {
 		}
 	}
 
-	/**
-	 * Execute read query.
-	 * 
-	 * @param query
-	 * @return rst
-	 */
 	public ResultSet executeQuery(String query) {
 		try {
 			// step3 : Create a statement
@@ -83,12 +62,6 @@ public class DatabaseConnection {
 		return rst;
 	}
 
-	/**
-	 * Execute insert, update, delete query.
-	 * 
-	 * @param query
-	 * @return int
-	 */
 	public int executeUpdate(String query) {
 		int rowsAffected = 0;
 		try {
@@ -102,23 +75,10 @@ public class DatabaseConnection {
 			System.out.println("Exception Occured ::: " + e.getClass());
 			e.printStackTrace();
 		} finally {
-			// clean up
-//			try {
-//				statment.close();
-//			} catch (SQLException e) {
-//				System.out.println("Exception Occured ::: " + e.getClass());
-//			}
-
 		}
 		return rowsAffected;
 	}
 
-	/**
-	 * Execute insert, update, delete query.
-	 * 
-	 * @param query
-	 * @return int
-	 */
 	public int executeUpdatePrStm(String query, String... args) {
 		int rowsAffected = 0;
 		try {
@@ -152,12 +112,6 @@ public class DatabaseConnection {
 		return rowsAffected;
 	}
 
-	/**
-	 * Execute insert, update, delete query.
-	 * 
-	 * @param query
-	 * @return int
-	 */
 	public int executeUpdateCallStm(String query, String... args) {
 		int rowsAffected = 0;
 		try {
@@ -189,9 +143,6 @@ public class DatabaseConnection {
 		return rowsAffected;
 	}
 
-	/**
-	 * Complete jdbc operation guide.
-	 */
 	public void jdbcOperation() {
 
 		try {
@@ -218,17 +169,6 @@ public class DatabaseConnection {
 			System.out.println("Exception Occured ::: " + e.getClass());
 			// e.printStackTrace();
 		} finally {
-			// clean up
-//			try {
-//				// step5 : close connection
-//				rst.close();
-//				statment.close();
-//				connection.close();
-//				System.out.println("5. Closing the connection.");
-//			} catch (SQLException e) {
-//				System.out.println("Exception Occurred ::: " + e.getClass());
-//			}
-
 		}
 
 	}
