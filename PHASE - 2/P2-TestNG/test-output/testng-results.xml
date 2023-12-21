@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-21T17:22:30 IST" name="Default suite" finished-at="2023-12-21T17:22:44 IST" duration-ms="13642">
+    <groups>
+    </groups>
+    <test started-at="2023-12-21T17:22:30 IST" name="Default test" finished-at="2023-12-21T17:22:44 IST" duration-ms="13642">
+      <class name="com.shivanshu.TestNG.amazon.Homepage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shivanshu.TestNG.amazon.Homepage@20deea7f]" started-at="2023-12-21T17:22:30 IST" name="setUp" finished-at="2023-12-21T17:22:37 IST" duration-ms="6767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAmazonHomePageSourceUrl()[pri:0, instance:com.shivanshu.TestNG.amazon.Homepage@20deea7f]" started-at="2023-12-21T17:22:37 IST" name="testAmazonHomePageSourceUrl" description="Test Amazon Home Page Source Url" finished-at="2023-12-21T17:22:37 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonHomePageSourceUrl -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.shivanshu.TestNG.amazon.Homepage@20deea7f]" started-at="2023-12-21T17:22:37 IST" name="cleanUp" finished-at="2023-12-21T17:22:37 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shivanshu.TestNG.amazon.Homepage@20deea7f]" started-at="2023-12-21T17:22:37 IST" name="setUp" finished-at="2023-12-21T17:22:40 IST" duration-ms="2840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAmazonHomePageTitle()[pri:0, instance:com.shivanshu.TestNG.amazon.Homepage@20deea7f]" started-at="2023-12-21T17:22:40 IST" name="testAmazonHomePageTitle" description="Test Amazon Home Page Title Match" finished-at="2023-12-21T17:22:40 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonHomePageTitle -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.shivanshu.TestNG.amazon.Homepage@20deea7f]" started-at="2023-12-21T17:22:40 IST" name="cleanUp" finished-at="2023-12-21T17:22:40 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shivanshu.TestNG.amazon.Homepage@20deea7f]" started-at="2023-12-21T17:22:40 IST" name="setUp" finished-at="2023-12-21T17:22:44 IST" duration-ms="3299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAmazonHomePageTitle2()[pri:0, instance:com.shivanshu.TestNG.amazon.Homepage@20deea7f]" started-at="2023-12-21T17:22:44 IST" name="testAmazonHomePageTitle2" description="Test Amazon Home Page Title Invalid Match" finished-at="2023-12-21T17:22:44 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonHomePageTitle2 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.shivanshu.TestNG.amazon.Homepage@20deea7f]" started-at="2023-12-21T17:22:44 IST" name="cleanUp" finished-at="2023-12-21T17:22:44 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.shivanshu.TestNG.amazon.Homepage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
