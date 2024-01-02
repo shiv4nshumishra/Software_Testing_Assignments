@@ -1,4 +1,3 @@
-#Author: wahid.xxx@your.domain.com
 @FeatureTest
 Feature: Add to Cart
   This feature will test funationality of adding diffrent products to the user cart (basket) from different flow

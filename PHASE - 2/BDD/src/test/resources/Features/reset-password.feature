@@ -1,5 +1,3 @@
-#Author: wahid.xxx@gmail.com
-#Keywaods Summary:
 #Features : List of features
 Feature: Reset Password
   I want to verify reset password functionality for existing user.

@@ -1,4 +1,3 @@
-#Author: wahid@xxx.com
 @AmazonSearchTest @SmokeTest
 Feature: Search products on Amazon
   User wants test search of multiple products on amazon

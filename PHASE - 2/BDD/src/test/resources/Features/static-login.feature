@@ -1,4 +1,3 @@
-#Author: wahid.xxx@xx.com
 #Feature: Login Feature
 @LoginTest @Regression
 Feature: Login Feature

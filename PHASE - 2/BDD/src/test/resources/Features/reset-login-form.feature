@@ -1,4 +1,3 @@
-#Author: wahid@xxx.com
 @ResetLogin
 Feature: Reset Login Form
   User wants test reset login form for muliple inputs

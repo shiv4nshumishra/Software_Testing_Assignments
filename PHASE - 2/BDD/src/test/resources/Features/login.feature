@@ -1,5 +1,3 @@
-#Author: wahid.xxx@gmail.com
-#Keywaods Summary:
 #Features : List of features
 Feature: Login
   I want to verify login with user credentials

@@ -1,4 +1,3 @@
-#Author: wahid.xxx@xx.com
 #Feature: Login Feature
 @HompageTest @Regression
 Feature: Amazon Homepage Test
