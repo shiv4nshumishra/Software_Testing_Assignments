@@ -1,0 +1,231 @@
+{
+	"info": {
+		"_postman_id": "e6e073e9-8972-4133-862d-d2ac5c338538",
+		"name": "2. SOAP APIs Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32291673",
+		"_collection_link": "https://api-aut-test-960506.postman.co/workspace/Dummy-Test~377fc758-3dc9-4942-932b-fdca9a163ec7/collection/32291673-e6e073e9-8972-4133-862d-d2ac5c338538?action=share&source=collection_link&creator=32291673"
+	},
+	"item": [
+		{
+			"name": "Get capital by country code",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"var xmlresponse = xml2Json(pm.response.text());\r",
+							"\r",
+							"pm.test(\"Response to have 'soap:Envelope' object\", function () {\r",
+							"    pm.expect(xmlresponse).to.have.property('soap:Envelope');\r",
+							"    pm.expect(xmlresponse['soap:Envelope']).to.be.an('object');\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response to have 'soap:Body' object\", function () {\r",
+							"    pm.expect(xmlresponse['soap:Envelope']).to.have.property('soap:Body');\r",
+							"    pm.expect(xmlresponse['soap:Envelope']['soap:Body']).to.be.an('object');\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response to have 'm:CapitalCityResponse' object\", function () {\r",
+							"    pm.expect(xmlresponse['soap:Envelope']['soap:Body']).to.have.property('m:CapitalCityResponse');\r",
+							"    pm.expect(xmlresponse['soap:Envelope']['soap:Body']['m:CapitalCityResponse']).to.be.an('object');\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response to have 'm:CapitalCityResult' property\", function () {\r",
+							"    pm.expect(xmlresponse['soap:Envelope']['soap:Body']['m:CapitalCityResponse']).to.have.property('m:CapitalCityResult');\r",
+							"    pm.expect(xmlresponse['soap:Envelope']['soap:Body']['m:CapitalCityResponse']['m:CapitalCityResult']).to.be.an('string');\r",
+							"    pm.expect(xmlresponse['soap:Envelope']['soap:Body']['m:CapitalCityResponse']['m:CapitalCityResult']).to.be.eq('New Delhi');\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml; charset=utf-8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<Envelope xmlns=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n    <Body>\r\n        <CapitalCity \txmlns=\"http://www.oorsprong.org/websamples.countryinfo\">\r\n            <sCountryISOCode>IN</sCountryISOCode>\r\n        </CapitalCity>\r\n    </Body>\r\n</Envelope>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL",
+					"protocol": "http",
+					"host": [
+						"webservices",
+						"oorsprong",
+						"org"
+					],
+					"path": [
+						"websamples.countryinfo",
+						"CountryInfoService.wso"
+					],
+					"query": [
+						{
+							"key": "WSDL",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Number To Word Conversion",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"var xmlresponse = xml2Json(pm.response.text());\r",
+							"\r",
+							"pm.test(\"Response to have 'soap:Envelope' object\", function () {\r",
+							"    pm.expect(xmlresponse).to.have.property('soap:Envelope');\r",
+							"    pm.expect(xmlresponse['soap:Envelope']).to.be.an('object');\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response to have 'soap:Body' object\", function () {\r",
+							"    pm.expect(xmlresponse['soap:Envelope']).to.have.property('soap:Body');\r",
+							"    pm.expect(xmlresponse['soap:Envelope']['soap:Body']).to.be.an('object');\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response to have 'm:NumberToDollarsResponse' object\", function () {\r",
+							"    pm.expect(xmlresponse['soap:Envelope']['soap:Body']).to.have.property('m:NumberToDollarsResponse');\r",
+							"    pm.expect(xmlresponse['soap:Envelope']['soap:Body']['m:NumberToDollarsResponse']).to.be.an('object');\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response to have 'm:NumberToDollarsResult' property\", function () {\r",
+							"    pm.expect(xmlresponse['soap:Envelope']['soap:Body']['m:NumberToDollarsResponse']).to.have.property('m:NumberToDollarsResult');\r",
+							"    pm.expect(xmlresponse['soap:Envelope']['soap:Body']['m:NumberToDollarsResponse']['m:NumberToDollarsResult']).to.be.an('string');\r",
+							"    pm.expect(xmlresponse['soap:Envelope']['soap:Body']['m:NumberToDollarsResponse']['m:NumberToDollarsResult']).to.be.eq('five thousand seventy eight dollars and nine cents');\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml; charset=utf-8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n  <soap:Body>\r\n    <NumberToDollars xmlns=\"http://www.dataaccess.com/webservicesserver/\">\r\n      <dNum>5078.099</dNum>\r\n    </NumberToDollars>\r\n  </soap:Body>\r\n</soap:Envelope>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+					"protocol": "https",
+					"host": [
+						"www",
+						"dataaccess",
+						"com"
+					],
+					"path": [
+						"webservicesserver",
+						"NumberConversion.wso"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List of Countries by country code",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"var xmlresponse = xml2Json(pm.response.text());\r",
+							"\r",
+							"pm.test(\"Response to have 'soap:Envelope' object\", function () {\r",
+							"    pm.expect(xmlresponse).to.have.property('soap:Envelope');\r",
+							"    pm.expect(xmlresponse['soap:Envelope']).to.be.an('object');\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response to have 'soap:Body' object\", function () {\r",
+							"    pm.expect(xmlresponse['soap:Envelope']).to.have.property('soap:Body');\r",
+							"    pm.expect(xmlresponse['soap:Envelope']['soap:Body']).to.be.an('object');\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response to have 'm:ListOfCountryNamesByNameResponse' object\", function () {\r",
+							"    pm.expect(xmlresponse['soap:Envelope']['soap:Body']).to.have.property('m:ListOfCountryNamesByNameResponse');\r",
+							"    pm.expect(xmlresponse['soap:Envelope']['soap:Body']['m:ListOfCountryNamesByNameResponse']).to.be.an('object');\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response to have 'm:ListOfCountryNamesByNameResult' property\", function () {\r",
+							"    pm.expect(xmlresponse['soap:Envelope']['soap:Body']['m:ListOfCountryNamesByNameResponse']).to.have.property('m:ListOfCountryNamesByNameResult');\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml; charset=utf-8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\r\n  <soap12:Body>\r\n    <ListOfCountryNamesByName xmlns=\"http://www.oorsprong.org/websamples.countryinfo\">\r\n    </ListOfCountryNamesByName>\r\n  </soap12:Body>\r\n</soap12:Envelope>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso",
+					"protocol": "http",
+					"host": [
+						"webservices",
+						"oorsprong",
+						"org"
+					],
+					"path": [
+						"websamples.countryinfo",
+						"CountryInfoService.wso"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
