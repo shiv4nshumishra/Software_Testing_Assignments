@@ -1,0 +1,220 @@
+{
+	"info": {
+		"_postman_id": "28463a02-8086-4bd6-af39-b596e5d56a3d",
+		"name": "1. REST API Test",
+		"description": "REST API testing involves evaluating the functionality of a RESTful web service by sending HTTP requests to the API and examining the responses. REST (Representational State Transfer) is an architectural style commonly used in web services, and RESTful APIs communicate over standard HTTP methods (e.g., GET, POST, PUT, DELETE). Here's a detailed description of REST API testing:\n\n### Overview:\n\nREST API testing is a crucial aspect of software testing that focuses on verifying the behavior and performance of RESTful web services. These APIs enable communication and data exchange between different systems, making them integral components of modern software architectures.\n\n### Key Aspects of REST API Testing:\n\n1. **HTTP Methods:**\n    - RESTful APIs use standard HTTP methods to perform various operations. Common methods include:\n        - GET: Retrieve information.\n        - POST: Create a new resource.\n        - PUT: Update an existing resource.\n        - DELETE: Remove a resource.\n2. **Request and Response:**\n    - Testing involves crafting HTTP requests with specific parameters, headers, and payloads to simulate different scenarios.\n    - Responses are examined for correct status codes, headers, and response bodies.\n3. **URI (Uniform Resource Identifier):**\n    - URIs are used to uniquely identify resources. Testing involves validating that URIs follow conventions and that they correctly identify resources.\n4. **Authentication and Authorization:**\n    - Testing ensures that authentication mechanisms, such as API keys or OAuth tokens, are correctly implemented.\n    - Authorization checks, ensuring that only authorized users can access certain resources, are also tested.\n5. **Data Formats:**\n    \n    - RESTful APIs often communicate using JSON or XML as data interchange formats. Testing involves validating that the API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32300394",
+		"_collection_link": "https://jihadibrahmin30421.postman.co/workspace/6505a379-5cca-4eee-94b8-acfb3dc31ebd/collection/32300394-28463a02-8086-4bd6-af39-b596e5d56a3d?action=share&source=collection_link&creator=32300394"
+	},
+	"item": [
+		{
+			"name": "GetAll",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Body is correct\", function () {\r",
+							"    pm.response.to.have.body(\"response_body_string\");\r",
+							"});\r",
+							"pm.test(\"Status code name has string\", function () {\r",
+							"    pm.response.to.have.status(\"Created\");\r",
+							"});\r",
+							"\r",
+							"let Jsondata = pm.response.json();\r",
+							"\r",
+							"console.log(Jsondata);\r",
+							"\r",
+							"console.log(Jsondata.shoes);\r",
+							"\r",
+							"console.log(typeof Jsondata);\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9010/get-shoes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9010",
+					"path": [
+						"get-shoes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUsers",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"\r",
+							"let Jsondata = pm.response.json();\r",
+							"\r",
+							"console.log(Jsondata);\r",
+							"\r",
+							"console.log(typeof Jsondata);\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9010/get-users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9010",
+					"path": [
+						"get-users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"\r",
+							"let Jsondata = pm.response.json();\r",
+							"\r",
+							"console.log(Jsondata);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9010/add-shoe?id=101",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9010",
+					"path": [
+						"add-shoe"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "101"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.environment.get(\"variable_key\");\r",
+							"pm.globals.get(\"variable_key\");\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9010/delete-shoe?id=101",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9010",
+					"path": [
+						"delete-shoe"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "101"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "URL",
+			"value": "https://reqres.in/api",
+			"type": "string"
+		},
+		{
+			"key": "HOST_ADDRESS",
+			"value": ""
+		},
+		{
+			"key": "userId",
+			"value": "12"
+		}
+	]
+}
