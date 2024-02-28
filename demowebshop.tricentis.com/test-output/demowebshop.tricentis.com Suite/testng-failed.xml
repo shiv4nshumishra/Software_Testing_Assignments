@@ -10,43 +10,36 @@
       <class name="Runner.Login">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="1 2 3"/>
           <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="1 2 3"/>
         </methods>
       </class> <!-- Runner.Login -->
       <class name="Runner.Registration">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="1 2 3 4"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3 4"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- Runner.Registration -->
       <class name="Runner.Poll">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="1 2"/>
           <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="1 2"/>
         </methods>
       </class> <!-- Runner.Poll -->
       <class name="Runner.Cart">
         <methods>
           <include name="setUpClass"/>
-          <include name="tearDownClass"/>
           <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
         </methods>
       </class> <!-- Runner.Cart -->
-      <class name="Runner.Search">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="1"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- Runner.Search -->
       <class name="Runner.Subscription">
         <methods>
           <include name="setUpClass"/>
-          <include name="tearDownClass"/>
           <include name="runScenario" invocation-numbers="1"/>
+          <include name="tearDownClass"/>
         </methods>
       </class> <!-- Runner.Subscription -->
     </classes>

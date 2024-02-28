@@ -2,33 +2,33 @@
 <testng-results retried="12" ignored="0" total="34" passed="10" failed="12" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-29T00:57:46 IST" name="demowebshop.tricentis.com Suite" finished-at="2024-02-29T01:08:46 IST" duration-ms="660792">
+  <suite started-at="2024-02-29T04:32:20 IST" name="demowebshop.tricentis.com Suite" finished-at="2024-02-29T04:43:45 IST" duration-ms="685552">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Cart@2b48a640]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Checkout@2053d869]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Login@4d02f94e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Poll@14555e0a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@33990a0c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Search@7a419da4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Subscription@4bb33f74]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.WishList@1e683a3e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Cart@3e84448c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Checkout@429bffaa]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Login@4d5b6aac]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Poll@483f6d77]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@2053d869]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Search@5403f35f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Subscription@7e5afaa6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.WishList@4a7f959b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-02-29T00:57:46 IST" name="CucumberTest" finished-at="2024-02-29T01:08:46 IST" duration-ms="660792">
+    <test started-at="2024-02-29T04:32:20 IST" name="CucumberTest" finished-at="2024-02-29T04:43:45 IST" duration-ms="685552">
       <class name="Runner.Subscription">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Subscription@4bb33f74]" started-at="2024-02-29T01:06:57 IST" name="setUpClass" finished-at="2024-02-29T01:06:57 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Subscription@7e5afaa6]" started-at="2024-02-29T04:41:38 IST" name="setUpClass" finished-at="2024-02-29T04:41:38 IST" duration-ms="31" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@24c08b5d]]>
+                <![CDATA[org.testng.TestRunner@50d6c88]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Subscription@4bb33f74]" started-at="2024-02-29T01:06:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:07:32 IST" duration-ms="34796" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Subscription@7e5afaa6]" started-at="2024-02-29T04:41:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:42:13 IST" duration-ms="34466" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,56 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Subscription@4bb33f74]" started-at="2024-02-29T01:07:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:08:08 IST" duration-ms="36424" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Testing of News Letter Subscription Page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["To Test DemoWebshop NewsLetter Subscription Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, findElement {using=xpath, value=//a[@class='ico-logout']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50946}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50946/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, findElement {using=xpath, value=//a[@class='ico-logout']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50946}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50946/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy48.click(Unknown Source)
-at Pages.SubscriptionPage.Click_Logout(SubscriptionPage.java:87)
-at Steps.Subscription.i_logout(Subscription.java:107)
-at ✽.I logout(file:///D:/demowebshop.tricentis.com/src/test/java/Features/SubscriptionFeature.feature:14)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Subscription@4bb33f74]" started-at="2024-02-29T01:08:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:08:44 IST" duration-ms="35690" status="FAIL">
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Subscription@7e5afaa6]" started-at="2024-02-29T04:42:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:42:50 IST" duration-ms="37477" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -113,7 +64,7 @@ Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, findElement {using=xpath, value=//a[@class='ico-logout']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51037}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51037/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59247/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
@@ -121,7 +72,7 @@ Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, findElement {using=xpath, value=//a[@class='ico-logout']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51037}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51037/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59247/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
@@ -132,7 +83,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy48.click(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy49.click(Unknown Source)
 at Pages.SubscriptionPage.Click_Logout(SubscriptionPage.java:87)
 at Steps.Subscription.i_logout(Subscription.java:107)
 at ✽.I logout(file:///D:/demowebshop.tricentis.com/src/test/java/Features/SubscriptionFeature.feature:14)
@@ -142,13 +93,73 @@ at ✽.I logout(file:///D:/demowebshop.tricentis.com/src/test/java/Features/Subs
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Subscription@4bb33f74]" started-at="2024-02-29T01:08:44 IST" name="tearDownClass" finished-at="2024-02-29T01:08:46 IST" duration-ms="2466" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Subscription@7e5afaa6]" started-at="2024-02-29T04:42:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:43:43 IST" duration-ms="52921" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing of News Letter Subscription Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test DemoWebshop NewsLetter Subscription Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//a[@class='ico-logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59349}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59349/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//a[@class='ico-logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59349}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59349/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy49.click(Unknown Source)
+at Pages.SubscriptionPage.Click_Logout(SubscriptionPage.java:87)
+at Steps.Subscription.i_logout(Subscription.java:107)
+at ✽.I logout(file:///D:/demowebshop.tricentis.com/src/test/java/Features/SubscriptionFeature.feature:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Subscription@7e5afaa6]" started-at="2024-02-29T04:43:43 IST" name="tearDownClass" finished-at="2024-02-29T04:43:45 IST" duration-ms="2330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- Runner.Subscription -->
       <class name="Runner.WishList">
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.WishList@1e683a3e]" started-at="2024-02-29T01:03:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:03:36 IST" duration-ms="20838" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.WishList@4a7f959b]" started-at="2024-02-29T04:38:12 IST" name="setUpClass" finished-at="2024-02-29T04:38:12 IST" duration-ms="107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@50d6c88]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.WishList@4a7f959b]" started-at="2024-02-29T04:38:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:38:46 IST" duration-ms="33311" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -164,35 +175,24 @@ at ✽.I logout(file:///D:/demowebshop.tricentis.com/src/test/java/Features/Subs
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.WishList@1e683a3e]" started-at="2024-02-29T01:03:16 IST" name="setUpClass" finished-at="2024-02-29T01:03:16 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@24c08b5d]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.WishList@1e683a3e]" started-at="2024-02-29T01:03:36 IST" name="tearDownClass" finished-at="2024-02-29T01:03:38 IST" duration-ms="1777" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.WishList@4a7f959b]" started-at="2024-02-29T04:38:46 IST" name="tearDownClass" finished-at="2024-02-29T04:38:48 IST" duration-ms="2055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- Runner.WishList -->
       <class name="Runner.Checkout">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Checkout@2053d869]" started-at="2024-02-29T01:03:38 IST" name="setUpClass" finished-at="2024-02-29T01:03:38 IST" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Checkout@429bffaa]" started-at="2024-02-29T04:38:48 IST" name="setUpClass" finished-at="2024-02-29T04:38:48 IST" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@24c08b5d]]>
+                <![CDATA[org.testng.TestRunner@50d6c88]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Checkout@2053d869]" started-at="2024-02-29T01:03:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:04:42 IST" duration-ms="63799" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Checkout@429bffaa]" started-at="2024-02-29T04:38:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:39:46 IST" duration-ms="58777" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -208,24 +208,24 @@ at ✽.I logout(file:///D:/demowebshop.tricentis.com/src/test/java/Features/Subs
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Checkout@2053d869]" started-at="2024-02-29T01:04:42 IST" name="tearDownClass" finished-at="2024-02-29T01:04:44 IST" duration-ms="2125" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Checkout@429bffaa]" started-at="2024-02-29T04:39:46 IST" name="tearDownClass" finished-at="2024-02-29T04:39:48 IST" duration-ms="2019" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- Runner.Checkout -->
       <class name="Runner.Search">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Search@7a419da4]" started-at="2024-02-29T01:04:44 IST" name="setUpClass" finished-at="2024-02-29T01:04:44 IST" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Search@5403f35f]" started-at="2024-02-29T04:39:48 IST" name="setUpClass" finished-at="2024-02-29T04:39:48 IST" duration-ms="13" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@24c08b5d]]>
+                <![CDATA[org.testng.TestRunner@50d6c88]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Search@7a419da4]" started-at="2024-02-29T01:04:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:05:07 IST" duration-ms="23182" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Search@5403f35f]" started-at="2024-02-29T04:39:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:40:02 IST" duration-ms="13340" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -241,7 +241,7 @@ at ✽.I logout(file:///D:/demowebshop.tricentis.com/src/test/java/Features/Subs
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Search@7a419da4]" started-at="2024-02-29T01:05:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:05:22 IST" duration-ms="14188" status="SKIP">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Search@5403f35f]" started-at="2024-02-29T04:40:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:40:22 IST" duration-ms="20422" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -254,125 +254,27 @@ at ✽.I logout(file:///D:/demowebshop.tricentis.com/src/test/java/Features/Subs
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[invalid session id
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3be96a13f3e1851688fc8db1d9cec1b7, findElement {using=xpath, value=//input[@id='small-searchterms']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50267}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50267/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3be96a13f3e1851688fc8db1d9cec1b7]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3be96a13f3e1851688fc8db1d9cec1b7, findElement {using=xpath, value=//input[@id='small-searchterms']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50267}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50267/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3be96a13f3e1851688fc8db1d9cec1b7
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy48.sendKeys(Unknown Source)
-at Pages.SearchPage.search_placeholder(SearchPage.java:22)
-at Steps.Search.userPerformsSearchWithDataFromExcel(Search.java:69)
-at ✽.the user performs a search with data from Excel sheet "<search_term>"(file:///D:/demowebshop.tricentis.com/src/test/java/Features/SearchFeature.feature:11)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Search@7a419da4]" started-at="2024-02-29T01:05:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:05:35 IST" duration-ms="13730" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Perform Search"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["To Test DemoWebshop Search Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[invalid session id
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [db35505c07efa053d62b9947dabe37ff, findElement {using=xpath, value=//input[@id='small-searchterms']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50350}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50350/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: db35505c07efa053d62b9947dabe37ff]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [db35505c07efa053d62b9947dabe37ff, findElement {using=xpath, value=//input[@id='small-searchterms']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50350}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50350/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: db35505c07efa053d62b9947dabe37ff
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy48.sendKeys(Unknown Source)
-at Pages.SearchPage.search_placeholder(SearchPage.java:22)
-at Steps.Search.userPerformsSearchWithDataFromExcel(Search.java:69)
-at ✽.the user performs a search with data from Excel sheet "<search_term>"(file:///D:/demowebshop.tricentis.com/src/test/java/Features/SearchFeature.feature:11)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Search@7a419da4]" started-at="2024-02-29T01:05:35 IST" name="tearDownClass" finished-at="2024-02-29T01:05:37 IST" duration-ms="2100" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Search@5403f35f]" started-at="2024-02-29T04:40:22 IST" name="tearDownClass" finished-at="2024-02-29T04:40:24 IST" duration-ms="1961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- Runner.Search -->
       <class name="Runner.Poll">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Poll@14555e0a]" started-at="2024-02-29T01:05:37 IST" name="setUpClass" finished-at="2024-02-29T01:05:37 IST" duration-ms="48" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Poll@483f6d77]" started-at="2024-02-29T04:40:24 IST" name="setUpClass" finished-at="2024-02-29T04:40:24 IST" duration-ms="47" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@24c08b5d]]>
+                <![CDATA[org.testng.TestRunner@50d6c88]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Poll@14555e0a]" started-at="2024-02-29T01:05:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:05:47 IST" duration-ms="9847" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Poll@483f6d77]" started-at="2024-02-29T04:40:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:40:34 IST" duration-ms="10296" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -388,7 +290,7 @@ at ✽.the user performs a search with data from Excel sheet "<search_term>"(fil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Poll@14555e0a]" started-at="2024-02-29T01:05:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:06:05 IST" duration-ms="17294" status="SKIP">
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Poll@483f6d77]" started-at="2024-02-29T04:40:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:40:46 IST" duration-ms="11932" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -418,7 +320,7 @@ at ✽.Click on vote button(file:///D:/demowebshop.tricentis.com/src/test/java/F
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Poll@14555e0a]" started-at="2024-02-29T01:06:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:06:16 IST" duration-ms="11117" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Poll@483f6d77]" started-at="2024-02-29T04:40:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:40:59 IST" duration-ms="12179" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -448,7 +350,7 @@ at ✽.Click on vote button(file:///D:/demowebshop.tricentis.com/src/test/java/F
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Poll@14555e0a]" started-at="2024-02-29T01:06:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:06:28 IST" duration-ms="12613" status="SKIP">
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Poll@483f6d77]" started-at="2024-02-29T04:40:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:41:11 IST" duration-ms="12542" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -463,10 +365,10 @@ at ✽.Click on vote button(file:///D:/demowebshop.tricentis.com/src/test/java/F
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[7519 vote(s)...]]>
+              <![CDATA[7521 vote(s)...]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 7519 vote(s)...
+              <![CDATA[java.lang.AssertionError: 7521 vote(s)...
 at org.junit.Assert.fail(Assert.java:89)
 at org.junit.Assert.assertTrue(Assert.java:42)
 at org.junit.Assert.assertFalse(Assert.java:65)
@@ -478,7 +380,7 @@ at ✽.User select one option from poll and vote(file:///D:/demowebshop.tricenti
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Poll@14555e0a]" started-at="2024-02-29T01:06:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:06:41 IST" duration-ms="12214" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Poll@483f6d77]" started-at="2024-02-29T04:41:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:41:24 IST" duration-ms="12389" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -493,10 +395,10 @@ at ✽.User select one option from poll and vote(file:///D:/demowebshop.tricenti
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[7519 vote(s)...]]>
+              <![CDATA[7521 vote(s)...]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 7519 vote(s)...
+              <![CDATA[java.lang.AssertionError: 7521 vote(s)...
 at org.junit.Assert.fail(Assert.java:89)
 at org.junit.Assert.assertTrue(Assert.java:42)
 at org.junit.Assert.assertFalse(Assert.java:65)
@@ -508,7 +410,7 @@ at ✽.User select one option from poll and vote(file:///D:/demowebshop.tricenti
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Poll@14555e0a]" started-at="2024-02-29T01:06:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:06:54 IST" duration-ms="13615" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Poll@483f6d77]" started-at="2024-02-29T04:41:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:41:36 IST" duration-ms="12153" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -524,24 +426,24 @@ at ✽.User select one option from poll and vote(file:///D:/demowebshop.tricenti
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Poll@14555e0a]" started-at="2024-02-29T01:06:54 IST" name="tearDownClass" finished-at="2024-02-29T01:06:57 IST" duration-ms="2761" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Poll@483f6d77]" started-at="2024-02-29T04:41:36 IST" name="tearDownClass" finished-at="2024-02-29T04:41:38 IST" duration-ms="2324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- Runner.Poll -->
       <class name="Runner.Login">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Login@4d02f94e]" started-at="2024-02-29T00:59:36 IST" name="setUpClass" finished-at="2024-02-29T00:59:36 IST" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Login@4d5b6aac]" started-at="2024-02-29T04:34:29 IST" name="setUpClass" finished-at="2024-02-29T04:34:29 IST" duration-ms="101" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@24c08b5d]]>
+                <![CDATA[org.testng.TestRunner@50d6c88]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Login@4d02f94e]" started-at="2024-02-29T00:59:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T00:59:53 IST" duration-ms="17056" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Login@4d5b6aac]" started-at="2024-02-29T04:34:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:34:47 IST" duration-ms="17650" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -557,7 +459,7 @@ at ✽.User select one option from poll and vote(file:///D:/demowebshop.tricenti
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Login@4d02f94e]" started-at="2024-02-29T00:59:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:00:09 IST" duration-ms="16752" status="SKIP">
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Login@4d5b6aac]" started-at="2024-02-29T04:34:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:35:05 IST" duration-ms="18121" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -577,10 +479,10 @@ at ✽.User select one option from poll and vote(file:///D:/demowebshop.tricenti
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ed53bf2e0d1766799b01cd6e9df5bc3e, clearElement {id=f.3070216EE462F7C511A1A69253781EDC.d.494F065854101785C3D252AC927FBCB4.e.78}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49167/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ed53bf2e0d1766799b01cd6e9df5bc3e)] -> xpath: //a[@href='/login']]
-Session ID: ed53bf2e0d1766799b01cd6e9df5bc3e]]>
+Command: [f2c4fd1a7986960c501b4d23df326857, clearElement {id=f.6C2B590360B4F9A5023765AF44F53BD4.d.4AB3A876DF35626E6DD8E7668CBEA85E.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57361}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57361/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f2c4fd1a7986960c501b4d23df326857)] -> xpath: //a[@href='/login']]
+Session ID: f2c4fd1a7986960c501b4d23df326857]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.InvalidElementStateException: invalid element state
@@ -588,10 +490,10 @@ Session ID: ed53bf2e0d1766799b01cd6e9df5bc3e]]>
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ed53bf2e0d1766799b01cd6e9df5bc3e, clearElement {id=f.3070216EE462F7C511A1A69253781EDC.d.494F065854101785C3D252AC927FBCB4.e.78}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49167/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ed53bf2e0d1766799b01cd6e9df5bc3e)] -> xpath: //a[@href='/login']]
-Session ID: ed53bf2e0d1766799b01cd6e9df5bc3e
+Command: [f2c4fd1a7986960c501b4d23df326857, clearElement {id=f.6C2B590360B4F9A5023765AF44F53BD4.d.4AB3A876DF35626E6DD8E7668CBEA85E.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57361}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57361/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f2c4fd1a7986960c501b4d23df326857)] -> xpath: //a[@href='/login']]
+Session ID: f2c4fd1a7986960c501b4d23df326857
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -612,7 +514,7 @@ at ✽.Message Should Be Displayed 'incorrect email or Password'(file:///D:/demo
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Login@4d02f94e]" started-at="2024-02-29T01:00:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:00:27 IST" duration-ms="18015" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Login@4d5b6aac]" started-at="2024-02-29T04:35:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:35:22 IST" duration-ms="17630" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -632,10 +534,10 @@ at ✽.Message Should Be Displayed 'incorrect email or Password'(file:///D:/demo
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [01637992a5e8485e79ff6a7ff30fe0cc, clearElement {id=f.61C6920EAA6676616E335D1AE645537D.d.4D9A3D2D63660F04D42014D159DE8CE2.e.78}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49243}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49243/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (01637992a5e8485e79ff6a7ff30fe0cc)] -> xpath: //a[@href='/login']]
-Session ID: 01637992a5e8485e79ff6a7ff30fe0cc]]>
+Command: [46d7cd1a751938e0994c956312b40216, clearElement {id=f.45C575CD5C6A6D0D33E662B585EA15A5.d.31758742615E960056EBB12E69003A63.e.77}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57447}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57447/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (46d7cd1a751938e0994c956312b40216)] -> xpath: //a[@href='/login']]
+Session ID: 46d7cd1a751938e0994c956312b40216]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.InvalidElementStateException: invalid element state
@@ -643,10 +545,10 @@ Session ID: 01637992a5e8485e79ff6a7ff30fe0cc]]>
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [01637992a5e8485e79ff6a7ff30fe0cc, clearElement {id=f.61C6920EAA6676616E335D1AE645537D.d.4D9A3D2D63660F04D42014D159DE8CE2.e.78}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49243}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49243/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (01637992a5e8485e79ff6a7ff30fe0cc)] -> xpath: //a[@href='/login']]
-Session ID: 01637992a5e8485e79ff6a7ff30fe0cc
+Command: [46d7cd1a751938e0994c956312b40216, clearElement {id=f.45C575CD5C6A6D0D33E662B585EA15A5.d.31758742615E960056EBB12E69003A63.e.77}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57447}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57447/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (46d7cd1a751938e0994c956312b40216)] -> xpath: //a[@href='/login']]
+Session ID: 46d7cd1a751938e0994c956312b40216
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -667,7 +569,7 @@ at ✽.Message Should Be Displayed 'incorrect email or Password'(file:///D:/demo
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Login@4d02f94e]" started-at="2024-02-29T01:00:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:00:44 IST" duration-ms="17058" status="SKIP">
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Login@4d5b6aac]" started-at="2024-02-29T04:35:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:35:40 IST" duration-ms="17334" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -687,10 +589,10 @@ at ✽.Message Should Be Displayed 'incorrect email or Password'(file:///D:/demo
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4a19d8b657443510daa7b4fea280e699, clearElement {id=f.DA6E3042ED6C6211BC7481BD2A1D8CD7.d.1D747FBC10B5858B447019C2B5749F6A.e.78}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49319}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49319/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (4a19d8b657443510daa7b4fea280e699)] -> xpath: //a[@href='/login']]
-Session ID: 4a19d8b657443510daa7b4fea280e699]]>
+Command: [784aabbfede8195d6b669e96855e6f3f, clearElement {id=f.DA218FDE2844D2A54687A26A4F503733.d.FCEBB8D272A5D3729FE1E68635967BB8.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57532}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57532/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (784aabbfede8195d6b669e96855e6f3f)] -> xpath: //a[@href='/login']]
+Session ID: 784aabbfede8195d6b669e96855e6f3f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.InvalidElementStateException: invalid element state
@@ -698,10 +600,10 @@ Session ID: 4a19d8b657443510daa7b4fea280e699]]>
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4a19d8b657443510daa7b4fea280e699, clearElement {id=f.DA6E3042ED6C6211BC7481BD2A1D8CD7.d.1D747FBC10B5858B447019C2B5749F6A.e.78}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49319}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49319/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (4a19d8b657443510daa7b4fea280e699)] -> xpath: //a[@href='/login']]
-Session ID: 4a19d8b657443510daa7b4fea280e699
+Command: [784aabbfede8195d6b669e96855e6f3f, clearElement {id=f.DA218FDE2844D2A54687A26A4F503733.d.FCEBB8D272A5D3729FE1E68635967BB8.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57532}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57532/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (784aabbfede8195d6b669e96855e6f3f)] -> xpath: //a[@href='/login']]
+Session ID: 784aabbfede8195d6b669e96855e6f3f
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -722,7 +624,7 @@ at ✽.Message Should Be Displayed 'incorrect email or Password'(file:///D:/demo
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Login@4d02f94e]" started-at="2024-02-29T01:00:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:01:01 IST" duration-ms="16839" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Login@4d5b6aac]" started-at="2024-02-29T04:35:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:35:58 IST" duration-ms="17819" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -742,10 +644,10 @@ at ✽.Message Should Be Displayed 'incorrect email or Password'(file:///D:/demo
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0ccb4bdefa9d7551bae635af08f4a3c1, clearElement {id=f.0C44B7ED5B2D6FCA87CB239EF5A5CD83.d.2A5DB3B81F3DC03C3D10C51C2F8025E6.e.75}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49393}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49393/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (0ccb4bdefa9d7551bae635af08f4a3c1)] -> xpath: //a[@href='/login']]
-Session ID: 0ccb4bdefa9d7551bae635af08f4a3c1]]>
+Command: [8eb462955bd4b8561acadad0e20475cf, clearElement {id=f.3AC6172C996258FE3842FCC1C408C5B2.d.62183053B7AB5FC211AE3770FB7F6083.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57617}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57617/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8eb462955bd4b8561acadad0e20475cf)] -> xpath: //a[@href='/login']]
+Session ID: 8eb462955bd4b8561acadad0e20475cf]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.InvalidElementStateException: invalid element state
@@ -753,10 +655,10 @@ Session ID: 0ccb4bdefa9d7551bae635af08f4a3c1]]>
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0ccb4bdefa9d7551bae635af08f4a3c1, clearElement {id=f.0C44B7ED5B2D6FCA87CB239EF5A5CD83.d.2A5DB3B81F3DC03C3D10C51C2F8025E6.e.75}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49393}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49393/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (0ccb4bdefa9d7551bae635af08f4a3c1)] -> xpath: //a[@href='/login']]
-Session ID: 0ccb4bdefa9d7551bae635af08f4a3c1
+Command: [8eb462955bd4b8561acadad0e20475cf, clearElement {id=f.3AC6172C996258FE3842FCC1C408C5B2.d.62183053B7AB5FC211AE3770FB7F6083.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57617}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57617/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8eb462955bd4b8561acadad0e20475cf)] -> xpath: //a[@href='/login']]
+Session ID: 8eb462955bd4b8561acadad0e20475cf
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -777,7 +679,7 @@ at ✽.Message Should Be Displayed 'incorrect email or Password'(file:///D:/demo
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Login@4d02f94e]" started-at="2024-02-29T01:01:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:01:18 IST" duration-ms="16672" status="SKIP">
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Login@4d5b6aac]" started-at="2024-02-29T04:35:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:36:15 IST" duration-ms="17267" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -797,10 +699,10 @@ at ✽.Message Should Be Displayed 'incorrect email or Password'(file:///D:/demo
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [88b005533c1d5a792b41d2381f1fa06c, clearElement {id=f.B489C165784321C93D3121301F703E1E.d.597609C129D53CFAED75F6AA3CD4AEA6.e.75}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49467/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (88b005533c1d5a792b41d2381f1fa06c)] -> xpath: //a[@href='/login']]
-Session ID: 88b005533c1d5a792b41d2381f1fa06c]]>
+Command: [49d1ae937e0f602de9325e19a4941661, clearElement {id=f.408B90F6645A782221ACE9E48CBDA2D6.d.FAE232B1F0F8019083790366CB71D95C.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57703}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57703/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (49d1ae937e0f602de9325e19a4941661)] -> xpath: //a[@href='/login']]
+Session ID: 49d1ae937e0f602de9325e19a4941661]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.InvalidElementStateException: invalid element state
@@ -808,10 +710,10 @@ Session ID: 88b005533c1d5a792b41d2381f1fa06c]]>
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [88b005533c1d5a792b41d2381f1fa06c, clearElement {id=f.B489C165784321C93D3121301F703E1E.d.597609C129D53CFAED75F6AA3CD4AEA6.e.75}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49467/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (88b005533c1d5a792b41d2381f1fa06c)] -> xpath: //a[@href='/login']]
-Session ID: 88b005533c1d5a792b41d2381f1fa06c
+Command: [49d1ae937e0f602de9325e19a4941661, clearElement {id=f.408B90F6645A782221ACE9E48CBDA2D6.d.FAE232B1F0F8019083790366CB71D95C.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57703}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57703/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (49d1ae937e0f602de9325e19a4941661)] -> xpath: //a[@href='/login']]
+Session ID: 49d1ae937e0f602de9325e19a4941661
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -832,7 +734,7 @@ at ✽.Message Should Be Displayed 'incorrect email or Password'(file:///D:/demo
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Login@4d02f94e]" started-at="2024-02-29T01:01:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:01:35 IST" duration-ms="16836" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Login@4d5b6aac]" started-at="2024-02-29T04:36:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:36:33 IST" duration-ms="17863" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -852,10 +754,10 @@ at ✽.Message Should Be Displayed 'incorrect email or Password'(file:///D:/demo
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bca027a0a78a2900a6307e3d2a2a4204, clearElement {id=f.B636F8B114EA19F116126FE964C40C06.d.4CFE3C73CA87DFC00C87B8E375AB4A59.e.78}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49542}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49542/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (bca027a0a78a2900a6307e3d2a2a4204)] -> xpath: //a[@href='/login']]
-Session ID: bca027a0a78a2900a6307e3d2a2a4204]]>
+Command: [ef27ba1cfe218cef7985155435303517, clearElement {id=f.6F89DC9DE8EB4B04ED2AA3088F929333.d.345884A278FE16B0584F65FC4669DF1C.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57788}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57788/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ef27ba1cfe218cef7985155435303517)] -> xpath: //a[@href='/login']]
+Session ID: ef27ba1cfe218cef7985155435303517]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.InvalidElementStateException: invalid element state
@@ -863,10 +765,10 @@ Session ID: bca027a0a78a2900a6307e3d2a2a4204]]>
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bca027a0a78a2900a6307e3d2a2a4204, clearElement {id=f.B636F8B114EA19F116126FE964C40C06.d.4CFE3C73CA87DFC00C87B8E375AB4A59.e.78}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49542}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49542/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (bca027a0a78a2900a6307e3d2a2a4204)] -> xpath: //a[@href='/login']]
-Session ID: bca027a0a78a2900a6307e3d2a2a4204
+Command: [ef27ba1cfe218cef7985155435303517, clearElement {id=f.6F89DC9DE8EB4B04ED2AA3088F929333.d.345884A278FE16B0584F65FC4669DF1C.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57788}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57788/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ef27ba1cfe218cef7985155435303517)] -> xpath: //a[@href='/login']]
+Session ID: ef27ba1cfe218cef7985155435303517
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -887,24 +789,321 @@ at ✽.Message Should Be Displayed 'incorrect email or Password'(file:///D:/demo
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Login@4d02f94e]" started-at="2024-02-29T01:01:35 IST" name="tearDownClass" finished-at="2024-02-29T01:01:38 IST" duration-ms="2956" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Login@4d5b6aac]" started-at="2024-02-29T04:36:33 IST" name="tearDownClass" finished-at="2024-02-29T04:36:35 IST" duration-ms="2798" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- Runner.Login -->
-      <class name="Runner.Cart">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Cart@2b48a640]" started-at="2024-02-29T01:01:38 IST" name="setUpClass" finished-at="2024-02-29T01:01:38 IST" duration-ms="127" status="PASS">
+      <class name="Runner.Registration">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Registration@2053d869]" started-at="2024-02-29T04:32:20 IST" name="setUpClass" finished-at="2024-02-29T04:32:21 IST" duration-ms="850" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@24c08b5d]]>
+                <![CDATA[org.testng.TestRunner@50d6c88]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Cart@2b48a640]" started-at="2024-02-29T01:01:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:02:03 IST" duration-ms="24877" status="SKIP">
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@2053d869]" started-at="2024-02-29T04:32:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:32:35 IST" duration-ms="14894" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register user with different data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test the DemoWebShop Register functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failure got to catch block]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failure got to catch block
+at org.testng.Assert.fail(Assert.java:110)
+at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@2053d869]" started-at="2024-02-29T04:32:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:32:50 IST" duration-ms="14493" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register user with different data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test the DemoWebShop Register functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failure got to catch block]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failure got to catch block
+at org.testng.Assert.fail(Assert.java:110)
+at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@2053d869]" started-at="2024-02-29T04:32:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:33:02 IST" duration-ms="11717" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register user with different data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test the DemoWebShop Register functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failure got to catch block]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failure got to catch block
+at org.testng.Assert.fail(Assert.java:110)
+at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@2053d869]" started-at="2024-02-29T04:33:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:33:13 IST" duration-ms="11290" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register user with different data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test the DemoWebShop Register functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failure got to catch block]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failure got to catch block
+at org.testng.Assert.fail(Assert.java:110)
+at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@2053d869]" started-at="2024-02-29T04:33:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:33:25 IST" duration-ms="11855" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register user with different data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test the DemoWebShop Register functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failure got to catch block]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failure got to catch block
+at org.testng.Assert.fail(Assert.java:110)
+at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@2053d869]" started-at="2024-02-29T04:33:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:33:36 IST" duration-ms="11282" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register user with different data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test the DemoWebShop Register functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failure got to catch block]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failure got to catch block
+at org.testng.Assert.fail(Assert.java:110)
+at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@2053d869]" started-at="2024-02-29T04:33:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:33:48 IST" duration-ms="11519" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register user with different data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test the DemoWebShop Register functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failure got to catch block]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failure got to catch block
+at org.testng.Assert.fail(Assert.java:110)
+at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@2053d869]" started-at="2024-02-29T04:33:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:34:00 IST" duration-ms="12228" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register user with different data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test the DemoWebShop Register functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failure got to catch block]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failure got to catch block
+at org.testng.Assert.fail(Assert.java:110)
+at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@2053d869]" started-at="2024-02-29T04:34:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:34:12 IST" duration-ms="12370" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register user with different data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test the DemoWebShop Register functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failure got to catch block]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failure got to catch block
+at org.testng.Assert.fail(Assert.java:110)
+at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@2053d869]" started-at="2024-02-29T04:34:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:34:25 IST" duration-ms="12968" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register user with different data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test the DemoWebShop Register functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failure got to catch block]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failure got to catch block
+at org.testng.Assert.fail(Assert.java:110)
+at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Registration@2053d869]" started-at="2024-02-29T04:34:25 IST" name="tearDownClass" finished-at="2024-02-29T04:34:29 IST" duration-ms="3663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.Registration -->
+      <class name="Runner.Cart">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Cart@3e84448c]" started-at="2024-02-29T04:36:35 IST" name="setUpClass" finished-at="2024-02-29T04:36:36 IST" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@50d6c88]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Cart@3e84448c]" started-at="2024-02-29T04:36:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:37:01 IST" duration-ms="25626" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -932,7 +1131,7 @@ at ✽.User validates whether all books have addtocart button(file:///D:/demoweb
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Cart@2b48a640]" started-at="2024-02-29T01:02:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:02:25 IST" duration-ms="21787" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Cart@3e84448c]" started-at="2024-02-29T04:37:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:37:22 IST" duration-ms="21130" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -960,7 +1159,7 @@ at ✽.User validates whether all books have addtocart button(file:///D:/demoweb
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Cart@2b48a640]" started-at="2024-02-29T01:02:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:02:47 IST" duration-ms="22800" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Cart@3e84448c]" started-at="2024-02-29T04:37:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:37:45 IST" duration-ms="22975" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -976,7 +1175,7 @@ at ✽.User validates whether all books have addtocart button(file:///D:/demoweb
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Cart@2b48a640]" started-at="2024-02-29T01:02:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T01:03:13 IST" duration-ms="25732" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Cart@3e84448c]" started-at="2024-02-29T04:37:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T04:38:10 IST" duration-ms="24220" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -992,268 +1191,11 @@ at ✽.User validates whether all books have addtocart button(file:///D:/demoweb
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Cart@2b48a640]" started-at="2024-02-29T01:03:13 IST" name="tearDownClass" finished-at="2024-02-29T01:03:16 IST" duration-ms="2490" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Cart@3e84448c]" started-at="2024-02-29T04:38:10 IST" name="tearDownClass" finished-at="2024-02-29T04:38:12 IST" duration-ms="2568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- Runner.Cart -->
-      <class name="Runner.Registration">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Registration@33990a0c]" started-at="2024-02-29T00:57:46 IST" name="setUpClass" finished-at="2024-02-29T00:57:47 IST" duration-ms="1099" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@24c08b5d]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@33990a0c]" started-at="2024-02-29T00:57:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T00:58:02 IST" duration-ms="15778" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Register user with different data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["To Test the DemoWebShop Register functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@33990a0c]" started-at="2024-02-29T00:58:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T00:58:13 IST" duration-ms="10918" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Register user with different data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["To Test the DemoWebShop Register functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failure got to catch block]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failure got to catch block
-at org.testng.Assert.fail(Assert.java:110)
-at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
-at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@33990a0c]" started-at="2024-02-29T00:58:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T00:58:24 IST" duration-ms="10812" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Register user with different data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["To Test the DemoWebShop Register functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failure got to catch block]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failure got to catch block
-at org.testng.Assert.fail(Assert.java:110)
-at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
-at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@33990a0c]" started-at="2024-02-29T00:58:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T00:58:35 IST" duration-ms="10785" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Register user with different data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["To Test the DemoWebShop Register functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failure got to catch block]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failure got to catch block
-at org.testng.Assert.fail(Assert.java:110)
-at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
-at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@33990a0c]" started-at="2024-02-29T00:58:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T00:58:46 IST" duration-ms="10545" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Register user with different data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["To Test the DemoWebShop Register functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failure got to catch block]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failure got to catch block
-at org.testng.Assert.fail(Assert.java:110)
-at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
-at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@33990a0c]" started-at="2024-02-29T00:58:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T00:58:56 IST" duration-ms="10747" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Register user with different data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["To Test the DemoWebShop Register functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failure got to catch block]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failure got to catch block
-at org.testng.Assert.fail(Assert.java:110)
-at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
-at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@33990a0c]" started-at="2024-02-29T00:58:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T00:59:07 IST" duration-ms="11008" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Register user with different data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["To Test the DemoWebShop Register functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failure got to catch block]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failure got to catch block
-at org.testng.Assert.fail(Assert.java:110)
-at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
-at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@33990a0c]" started-at="2024-02-29T00:59:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T00:59:20 IST" duration-ms="12676" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Register user with different data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["To Test the DemoWebShop Register functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failure got to catch block]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failure got to catch block
-at org.testng.Assert.fail(Assert.java:110)
-at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
-at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Registration@33990a0c]" started-at="2024-02-29T00:59:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T00:59:32 IST" duration-ms="11767" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Register user with different data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["To Test the DemoWebShop Register functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failure got to catch block]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failure got to catch block
-at org.testng.Assert.fail(Assert.java:110)
-at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
-at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Registration@33990a0c]" started-at="2024-02-29T00:59:32 IST" name="tearDownClass" finished-at="2024-02-29T00:59:36 IST" duration-ms="3859" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- Runner.Registration -->
     </test> <!-- CucumberTest -->
   </suite> <!-- demowebshop.tricentis.com Suite -->
 </testng-results>

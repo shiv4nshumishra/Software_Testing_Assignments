@@ -13,6 +13,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import Pages.CheckoutPage;
+import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -169,5 +170,10 @@ public class Checkout {
 		} catch (IOException e) {
 			System.out.println("Unable to capture screenshot: " + e.getMessage());
 		}
+	}
+	
+	@After
+	public void quitBrowserSession() {
+		driver.quit();
 	}
 }

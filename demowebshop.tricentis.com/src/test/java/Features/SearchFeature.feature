@@ -10,12 +10,4 @@ Feature: To Test DemoWebshop Search Functionality
     Given the user is on the search page
   	When the user performs a search with data from Excel sheet "<search_term>"
     Then the search results should be displayed for "<search_term>"
-
- 
-
-
-
-
-
-
-   
+    

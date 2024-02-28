@@ -74,40 +74,28 @@ public class Search {
 	@Test
 	@Then("the search results should be displayed for {string}")
 	public void validateSearchResults(String search_term) throws IOException {
-		int retryCount = 0;
-		int maxRetryCount = 2;
 
 		By noResultsMessage = By.xpath("//strong[@class='result' and contains(text(), 'No products were found')]");
 
 		boolean isNoResultsMessageDisplayed = driver.findElements(noResultsMessage).size() > 0;
-
-		while (retryCount < maxRetryCount) {
-			try {
-				if (isNoResultsMessageDisplayed) {
-					Assert.fail("No result displayed for " + search_term);
-				}
-
-				else {
-					logger.info("Search results displayed for: " + search_term);
-					System.out.println("Search results displayed for: " + search_term);
-					return; // Break out of retry loop if successful
-				}
+		
+		try {
+			if (isNoResultsMessageDisplayed) {
+				Assert.fail("No result displayed for " + search_term);
 			}
+			else {
+				logger.info("Search results displayed for: " + search_term);
+				System.out.println("Search results displayed for: " + search_term);
+				return; // Break out of retry loop if successful
+			}
+		}
 
-			catch (AssertionError e) {
-				TakesScreenshot ts = (TakesScreenshot) driver;
-				File sourceFile = ts.getScreenshotAs(OutputType.FILE);
-				File destinationFile = new File("D:\\demowebshop.tricentis.com\\ScreenShots\\Search\\" +sourceFile);
-				System.out.println("Screenshot captured: " + destinationFile);
-				logger.error("Screenshot captured: " + destinationFile);
-			}
-			retryCount++;
-			logger.info("Retrying search validation for: " + search_term + ". Attempt: " + retryCount);
-			try {
-				Thread.sleep(1000); // Adjust sleep time as needed
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
+		catch (AssertionError e) {
+			TakesScreenshot ts = (TakesScreenshot) driver;
+			File sourceFile = ts.getScreenshotAs(OutputType.FILE);
+			File destinationFile = new File("D:\\demowebshop.tricentis.com\\ScreenShots\\Search\\" +sourceFile);
+			System.out.println("Screenshot captured: " + destinationFile);
+			logger.error("Screenshot captured: " + destinationFile);
 		}
 	}
 }

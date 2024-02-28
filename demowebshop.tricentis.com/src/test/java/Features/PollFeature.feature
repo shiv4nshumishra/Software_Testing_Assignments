@@ -17,5 +17,5 @@ Feature: To Test DemoWebshop Community Poll Functionality
   Examples: 
       | email                     | password |
       | iamalexanderwho@gmail.com | 12345678 |
-      | fsdgdshfkbetyvcwexqtqdxeqw@gmail.com   | 12345678 |
+      | black.rainbow@yahoo.com | 12345678 |
       

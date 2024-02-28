@@ -5839,3 +5839,599 @@
 [INFO ] 2024-02-29 01:08:28.228 [main] Subscription - Clicking on Subscribe
 [INFO ] 2024-02-29 01:08:33.547 [main] Subscription - Clicking on logout
 [INFO ] 2024-02-29 01:08:36.682 [main] Subscription - Clicking on logout
+[INFO ] 2024-02-29 02:35:29.423 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 02:35:49.536 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 02:35:49.614 [main] Registration - selecting gender
+[INFO ] 2024-02-29 02:35:50.601 [main] Registration - user enters first name
+[INFO ] 2024-02-29 02:35:50.730 [main] Registration - user enters last name
+[INFO ] 2024-02-29 02:35:50.873 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 02:35:50.996 [main] Registration - user enters password
+[INFO ] 2024-02-29 02:35:51.123 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 02:36:51.269 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 02:37:16.419 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 02:37:16.489 [main] Registration - selecting gender
+[INFO ] 2024-02-29 02:37:16.603 [main] Registration - user enters first name
+[INFO ] 2024-02-29 02:37:16.720 [main] Registration - user enters last name
+[INFO ] 2024-02-29 02:37:16.857 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 02:37:16.961 [main] Registration - user enters password
+[INFO ] 2024-02-29 02:37:17.075 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 02:38:27.474 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 02:38:46.876 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 02:38:46.944 [main] Registration - selecting gender
+[INFO ] 2024-02-29 02:38:47.053 [main] Registration - user enters first name
+[INFO ] 2024-02-29 02:38:47.164 [main] Registration - user enters last name
+[INFO ] 2024-02-29 02:38:47.269 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 02:38:47.384 [main] Registration - user enters password
+[INFO ] 2024-02-29 02:38:47.493 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 02:39:15.254 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 02:39:37.562 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 02:39:37.629 [main] Registration - selecting gender
+[INFO ] 2024-02-29 02:39:37.736 [main] Registration - user enters first name
+[INFO ] 2024-02-29 02:39:37.825 [main] Registration - user enters last name
+[INFO ] 2024-02-29 02:39:37.916 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 02:39:38.021 [main] Registration - user enters password
+[INFO ] 2024-02-29 02:39:38.121 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 02:40:09.880 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 02:40:25.854 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 02:40:25.921 [main] Registration - selecting gender
+[INFO ] 2024-02-29 02:40:26.032 [main] Registration - user enters first name
+[INFO ] 2024-02-29 02:40:26.129 [main] Registration - user enters last name
+[INFO ] 2024-02-29 02:40:26.223 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 02:40:26.317 [main] Registration - user enters password
+[INFO ] 2024-02-29 02:40:26.409 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 02:40:48.719 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 02:41:01.643 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 02:41:01.724 [main] Registration - selecting gender
+[INFO ] 2024-02-29 02:41:01.833 [main] Registration - user enters first name
+[INFO ] 2024-02-29 02:41:01.924 [main] Registration - user enters last name
+[INFO ] 2024-02-29 02:41:02.003 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 02:41:02.092 [main] Registration - user enters password
+[INFO ] 2024-02-29 02:41:02.191 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 02:41:28.178 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 02:41:43.190 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 02:41:43.256 [main] Registration - selecting gender
+[INFO ] 2024-02-29 02:41:43.351 [main] Registration - user enters first name
+[INFO ] 2024-02-29 02:41:43.478 [main] Registration - user enters last name
+[INFO ] 2024-02-29 02:41:43.570 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 02:41:43.637 [main] Registration - user enters password
+[INFO ] 2024-02-29 02:41:43.732 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 02:42:05.297 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 02:42:18.303 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 02:42:18.366 [main] Registration - selecting gender
+[INFO ] 2024-02-29 02:42:18.448 [main] Registration - user enters first name
+[INFO ] 2024-02-29 02:42:18.526 [main] Registration - user enters last name
+[INFO ] 2024-02-29 02:42:18.612 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 02:42:18.686 [main] Registration - user enters password
+[INFO ] 2024-02-29 02:42:18.774 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 02:42:48.017 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 02:43:03.846 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 02:43:03.918 [main] Registration - selecting gender
+[INFO ] 2024-02-29 02:43:04.017 [main] Registration - user enters first name
+[INFO ] 2024-02-29 02:43:04.101 [main] Registration - user enters last name
+[INFO ] 2024-02-29 02:43:04.194 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 02:43:04.270 [main] Registration - user enters password
+[INFO ] 2024-02-29 02:43:04.346 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 02:43:47.372 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 02:44:03.707 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 02:44:03.778 [main] Registration - selecting gender
+[INFO ] 2024-02-29 02:44:03.869 [main] Registration - user enters first name
+[INFO ] 2024-02-29 02:44:03.955 [main] Registration - user enters last name
+[INFO ] 2024-02-29 02:44:04.047 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 02:44:04.132 [main] Registration - user enters password
+[INFO ] 2024-02-29 02:44:04.209 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 02:44:36.342 [main] Login - user Navigates To Login Page
+[INFO ] 2024-02-29 02:45:48.691 [main] Login - user Enters email And Password
+[INFO ] 2024-02-29 02:45:48.891 [main] Login - clicks Login Button
+[INFO ] 2024-02-29 02:46:26.049 [main] Login - message Should Be Displayed
+[INFO ] 2024-02-29 02:46:31.543 [main] Login - user Navigates To Login Page
+[INFO ] 2024-02-29 02:47:15.312 [main] Login - user Enters email And Password
+[INFO ] 2024-02-29 02:47:15.503 [main] Login - clicks Login Button
+[INFO ] 2024-02-29 02:47:22.981 [main] Login - message Should Be Displayed
+[INFO ] 2024-02-29 02:47:28.680 [main] Login - user Navigates To Login Page
+[INFO ] 2024-02-29 02:48:13.995 [main] Login - user Enters email And Password
+[INFO ] 2024-02-29 02:48:14.212 [main] Login - clicks Login Button
+[INFO ] 2024-02-29 02:48:33.718 [main] Login - message Should Be Displayed
+[INFO ] 2024-02-29 02:48:39.662 [main] Login - user Navigates To Login Page
+[INFO ] 2024-02-29 02:49:26.163 [main] Login - user Enters email And Password
+[INFO ] 2024-02-29 02:49:26.368 [main] Login - clicks Login Button
+[INFO ] 2024-02-29 02:49:40.178 [main] Login - message Should Be Displayed
+[INFO ] 2024-02-29 02:49:46.069 [main] Login - user Navigates To Login Page
+[INFO ] 2024-02-29 02:50:48.656 [main] Login - user Enters email And Password
+[INFO ] 2024-02-29 02:50:48.835 [main] Login - clicks Login Button
+[INFO ] 2024-02-29 02:51:03.428 [main] Login - message Should Be Displayed
+[INFO ] 2024-02-29 02:51:09.086 [main] Login - user Navigates To Login Page
+[INFO ] 2024-02-29 02:52:02.157 [main] Login - user Enters email And Password
+[INFO ] 2024-02-29 02:52:02.286 [main] Login - clicks Login Button
+[INFO ] 2024-02-29 02:52:11.900 [main] Login - message Should Be Displayed
+[INFO ] 2024-02-29 02:52:17.648 [main] Login - user Navigates To Login Page
+[INFO ] 2024-02-29 02:52:53.224 [main] Login - user Enters email And Password
+[INFO ] 2024-02-29 02:52:53.337 [main] Login - clicks Login Button
+[INFO ] 2024-02-29 02:53:02.112 [main] Login - message Should Be Displayed
+[INFO ] 2024-02-29 02:53:10.493 [main] Cart - Navigating to the URL
+[INFO ] 2024-02-29 02:53:37.397 [main] Cart - Performing the login process
+[INFO ] 2024-02-29 02:54:09.542 [main] Cart - Validating the login process
+[INFO ] 2024-02-29 02:54:11.560 [main] Cart - Clicking on the book menu
+[INFO ] 2024-02-29 02:54:25.412 [main] Cart - Validating add to cart buttons for all books
+[INFO ] 2024-02-29 02:56:16.767 [main] Cart - Navigating to the URL
+[INFO ] 2024-02-29 02:56:51.160 [main] Cart - Performing the login process
+[INFO ] 2024-02-29 02:57:20.077 [main] Cart - Validating the login process
+[INFO ] 2024-02-29 02:57:22.102 [main] Cart - Clicking on the book menu
+[INFO ] 2024-02-29 02:57:36.163 [main] Cart - Validating add to cart buttons for all books
+[INFO ] 2024-02-29 02:58:48.016 [main] Cart - Navigating to the URL
+[INFO ] 2024-02-29 02:59:19.081 [main] Cart - Performing the login process
+[INFO ] 2024-02-29 02:59:58.309 [main] Cart - Validating the login process
+[INFO ] 2024-02-29 03:00:00.331 [main] Cart - Clicking on the book menu
+[INFO ] 2024-02-29 03:00:15.626 [main] Cart - Adding the third book to the cart
+[INFO ] 2024-02-29 03:00:59.182 [main] Cart - Validating the third book is successfully added to the cart
+[INFO ] 2024-02-29 03:01:22.094 [main] Cart - Navigating to the URL
+[INFO ] 2024-02-29 03:01:55.121 [main] Cart - Performing the login process
+[INFO ] 2024-02-29 03:02:32.575 [main] Cart - Validating the login process
+[INFO ] 2024-02-29 03:02:34.595 [main] Cart - Clicking on the book menu
+[INFO ] 2024-02-29 03:02:46.693 [main] Cart - Adding any 3 products to the cart
+[INFO ] 2024-02-29 03:03:15.599 [main] Cart - Deleting any two products from the cart
+[INFO ] 2024-02-29 03:03:37.018 [main] Cart - Validating the cart after deleting the products
+[INFO ] 2024-02-29 03:03:47.325 [main] WishList - User navigates to the URL
+[INFO ] 2024-02-29 03:04:11.467 [main] WishList - User performs the login process
+[INFO ] 2024-02-29 03:04:46.000 [main] WishList - Validate the login is successfulL
+[INFO ] 2024-02-29 03:04:46.012 [main] WishList - the user is on the Demo Web Shop homepage
+[INFO ] 2024-02-29 03:04:58.600 [main] WishList - the user clicks on {string}
+[INFO ] 2024-02-29 03:05:11.612 [main] WishList - the user adds products to the wishlist
+[INFO ] 2024-02-29 03:06:16.252 [main] WishList - the user goes to the Wishlist
+[INFO ] 2024-02-29 03:06:29.535 [main] WishList - the user removes a product from the Wishlist
+[INFO ] 2024-02-29 03:06:54.807 [main] WishList - the Wishlist should be updated accordingly
+[INFO ] 2024-02-29 03:07:02.877 [main] Checkout - User navigates to the URL
+[INFO ] 2024-02-29 03:07:30.664 [main] Checkout - User performs the login process
+[INFO ] 2024-02-29 03:07:57.647 [main] Checkout - Validate the login is successful
+[INFO ] 2024-02-29 03:08:01.698 [main] Checkout - User clicks on book menu
+[INFO ] 2024-02-29 03:08:12.638 [main] Checkout - User add third book to cart
+[INFO ] 2024-02-29 03:08:34.263 [main] Checkout - User clicks on the checkbox
+[INFO ] 2024-02-29 03:08:37.358 [main] Checkout - User should able to checkout
+[INFO ] 2024-02-29 03:09:08.000 [main] Checkout - billing information
+[INFO ] 2024-02-29 03:09:10.113 [main] Checkout - enters valid shipping
+[INFO ] 2024-02-29 03:09:18.428 [main] Checkout - User navigates to the URL
+[INFO ] 2024-02-29 03:09:50.487 [main] Checkout - User performs the login process
+[INFO ] 2024-02-29 03:10:37.187 [main] Checkout - Validate the login is successful
+[INFO ] 2024-02-29 03:10:41.215 [main] Checkout - User clicks on book menu
+[INFO ] 2024-02-29 03:11:09.302 [main] Checkout - User add third book to cart
+[INFO ] 2024-02-29 03:11:41.926 [main] Checkout - User clicks on the checkbox
+[INFO ] 2024-02-29 03:11:45.034 [main] Checkout - User should able to checkout
+[INFO ] 2024-02-29 03:12:29.157 [main] Checkout - billing information
+[INFO ] 2024-02-29 03:12:31.252 [main] Checkout - enters valid shipping
+[INFO ] 2024-02-29 03:12:40.944 [main] Search - Setting up WebDriver and Page_search.
+[INFO ] 2024-02-29 03:12:41.934 [main] Search - Navigating to the search page.
+[INFO ] 2024-02-29 03:13:06.869 [main] Search - Clicking the search button.
+[INFO ] 2024-02-29 03:13:08.962 [main] Search - Dismissing the pop-up.
+[INFO ] 2024-02-29 03:13:14.514 [main] Search - Setting up WebDriver and Page_search.
+[INFO ] 2024-02-29 03:13:15.496 [main] Search - Navigating to the search page.
+[INFO ] 2024-02-29 03:13:40.026 [main] Search - Search terms from Excel sheet: [Books, Computers, Mjolnir, cellphone, Computer, laptop, smartphone, Book]
+[ERROR] 2024-02-29 03:13:48.930 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot805866165706276910.png
+[INFO ] 2024-02-29 03:13:48.930 [main] Search - Retrying search validation for: Books. Attempt: 1
+[ERROR] 2024-02-29 03:13:50.086 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot4879867567223979756.png
+[INFO ] 2024-02-29 03:13:50.086 [main] Search - Retrying search validation for: Books. Attempt: 2
+[ERROR] 2024-02-29 03:14:00.856 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot17788367936190467145.png
+[INFO ] 2024-02-29 03:14:00.856 [main] Search - Retrying search validation for: Computers. Attempt: 1
+[ERROR] 2024-02-29 03:14:02.019 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot13730235303021771280.png
+[INFO ] 2024-02-29 03:14:02.019 [main] Search - Retrying search validation for: Computers. Attempt: 2
+[ERROR] 2024-02-29 03:14:14.354 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot6314289537463374456.png
+[INFO ] 2024-02-29 03:14:14.354 [main] Search - Retrying search validation for: Mjolnir. Attempt: 1
+[ERROR] 2024-02-29 03:14:15.537 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot8100940014790858623.png
+[INFO ] 2024-02-29 03:14:15.537 [main] Search - Retrying search validation for: Mjolnir. Attempt: 2
+[ERROR] 2024-02-29 03:14:29.531 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot2627362086307498942.png
+[INFO ] 2024-02-29 03:14:29.531 [main] Search - Retrying search validation for: cellphone. Attempt: 1
+[ERROR] 2024-02-29 03:14:30.731 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot3868177390723754081.png
+[INFO ] 2024-02-29 03:14:30.731 [main] Search - Retrying search validation for: cellphone. Attempt: 2
+[INFO ] 2024-02-29 03:14:43.494 [main] Search - Search results displayed for: Computer
+[INFO ] 2024-02-29 03:14:54.077 [main] Search - Search results displayed for: laptop
+[INFO ] 2024-02-29 03:15:07.749 [main] Search - Search results displayed for: smartphone
+[INFO ] 2024-02-29 03:15:22.118 [main] Search - Search results displayed for: Book
+[INFO ] 2024-02-29 03:15:22.127 [main] Search - Search results displayed for: <search_term>
+[INFO ] 2024-02-29 03:15:30.657 [main] Poll - URL
+[INFO ] 2024-02-29 03:15:55.816 [main] Poll - Users direct click on vote button
+[INFO ] 2024-02-29 03:16:01.554 [main] Poll - URL
+[INFO ] 2024-02-29 03:16:19.076 [main] Poll - Users selects the poll  
+[INFO ] 2024-02-29 03:16:19.197 [main] Poll - User Click on the vote button
+[INFO ] 2024-02-29 03:16:26.208 [main] Poll - URL
+[INFO ] 2024-02-29 03:16:43.376 [main] Poll - Users selects the poll  
+[INFO ] 2024-02-29 03:16:43.489 [main] Poll - User Click on the vote button
+[INFO ] 2024-02-29 03:16:50.460 [main] Poll - URL
+[INFO ] 2024-02-29 03:17:40.987 [main] Poll - Users select one option from poll
+[INFO ] 2024-02-29 03:17:46.979 [main] Poll - URL
+[INFO ] 2024-02-29 03:18:23.918 [main] Poll - Users select one option from poll
+[INFO ] 2024-02-29 03:18:29.968 [main] Poll - URL
+[INFO ] 2024-02-29 03:18:50.599 [main] Poll - Users select one option from poll
+[INFO ] 2024-02-29 03:18:56.488 [main] Poll - URL
+[INFO ] 2024-02-29 03:19:02.218 [main] Poll - Users select one option from poll
+[INFO ] 2024-02-29 03:19:10.574 [main] Subscription - Navigating to the URL
+[INFO ] 2024-02-29 03:19:14.008 [main] Subscription - Clicking on login link
+[INFO ] 2024-02-29 03:19:16.665 [main] Subscription - Entering the Email id
+[INFO ] 2024-02-29 03:19:18.800 [main] Subscription - Entering the Password
+[INFO ] 2024-02-29 03:19:20.979 [main] Subscription - Clicking on login button
+[INFO ] 2024-02-29 03:19:24.052 [main] Subscription - Entering the signup mail id
+[INFO ] 2024-02-29 03:19:28.181 [main] Subscription - Clicking on Subscribe
+[INFO ] 2024-02-29 03:19:33.359 [main] Subscription - Clicking on logout
+[INFO ] 2024-02-29 03:19:42.998 [main] Subscription - Navigating to the URL
+[INFO ] 2024-02-29 03:19:46.295 [main] Subscription - Clicking on login link
+[INFO ] 2024-02-29 03:19:48.918 [main] Subscription - Entering the Email id
+[INFO ] 2024-02-29 03:19:51.054 [main] Subscription - Entering the Password
+[INFO ] 2024-02-29 03:19:53.186 [main] Subscription - Clicking on login button
+[INFO ] 2024-02-29 03:19:56.230 [main] Subscription - Entering the signup mail id
+[INFO ] 2024-02-29 03:20:00.384 [main] Subscription - Clicking on Subscribe
+[INFO ] 2024-02-29 03:20:05.714 [main] Subscription - Clicking on logout
+[INFO ] 2024-02-29 03:20:08.880 [main] Subscription - Clicking on logout
+[INFO ] 2024-02-29 03:20:17.377 [main] Subscription - Navigating to the URL
+[INFO ] 2024-02-29 03:20:23.367 [main] Subscription - Clicking on login link
+[INFO ] 2024-02-29 03:20:25.998 [main] Subscription - Entering the Email id
+[INFO ] 2024-02-29 03:20:28.154 [main] Subscription - Entering the Password
+[INFO ] 2024-02-29 03:20:30.257 [main] Subscription - Clicking on login button
+[INFO ] 2024-02-29 03:20:33.355 [main] Subscription - Entering the signup mail id
+[INFO ] 2024-02-29 03:20:37.520 [main] Subscription - Clicking on Subscribe
+[INFO ] 2024-02-29 03:20:42.884 [main] Subscription - Clicking on logout
+[INFO ] 2024-02-29 03:20:46.124 [main] Subscription - Clicking on logout
+[INFO ] 2024-02-29 03:50:20.278 [main] Checkout - User navigates to the URL
+[INFO ] 2024-02-29 03:50:24.266 [main] Checkout - User performs the login process
+[INFO ] 2024-02-29 03:50:26.728 [main] Checkout - Validate the login is successful
+[INFO ] 2024-02-29 03:50:30.767 [main] Checkout - User clicks on book menu
+[INFO ] 2024-02-29 03:50:33.843 [main] Checkout - User add third book to cart
+[INFO ] 2024-02-29 03:50:38.774 [main] Checkout - User clicks on the checkbox
+[INFO ] 2024-02-29 03:50:41.878 [main] Checkout - User should able to checkout
+[INFO ] 2024-02-29 03:50:45.958 [main] Checkout - billing information
+[INFO ] 2024-02-29 03:50:48.049 [main] Checkout - enters valid shipping
+[INFO ] 2024-02-29 03:50:52.159 [main] Checkout - select shipping type
+[INFO ] 2024-02-29 03:50:58.327 [main] Checkout - selects a payment method
+[INFO ] 2024-02-29 03:55:55.515 [main] Search - Setting up WebDriver and Page_search.
+[INFO ] 2024-02-29 03:55:57.482 [main] Search - Navigating to the search page.
+[INFO ] 2024-02-29 03:56:00.907 [main] Search - Clicking the search button.
+[INFO ] 2024-02-29 03:56:03.022 [main] Search - Dismissing the pop-up.
+[INFO ] 2024-02-29 03:56:10.097 [main] Search - Setting up WebDriver and Page_search.
+[INFO ] 2024-02-29 03:56:11.304 [main] Search - Navigating to the search page.
+[INFO ] 2024-02-29 03:56:15.251 [main] Search - Search terms from Excel sheet: [Books, Computers, Mjolnir, cellphone, Computer, laptop, smartphone, Book]
+[ERROR] 2024-02-29 03:56:16.453 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot388445639731922505.png
+[ERROR] 2024-02-29 03:56:17.669 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot5679567463168328840.png
+[ERROR] 2024-02-29 03:56:18.971 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot17819450929094764091.png
+[ERROR] 2024-02-29 03:56:20.186 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot1561832207803662250.png
+[INFO ] 2024-02-29 03:56:21.431 [main] Search - Search results displayed for: Computer
+[INFO ] 2024-02-29 03:56:22.453 [main] Search - Search results displayed for: laptop
+[INFO ] 2024-02-29 03:56:23.540 [main] Search - Search results displayed for: smartphone
+[INFO ] 2024-02-29 03:56:24.564 [main] Search - Search results displayed for: Book
+[INFO ] 2024-02-29 03:56:24.577 [main] Search - Search results displayed for: <search_term>
+[INFO ] 2024-02-29 03:57:23.097 [main] Search - Setting up WebDriver and Page_search.
+[INFO ] 2024-02-29 03:57:24.887 [main] Search - Navigating to the search page.
+[INFO ] 2024-02-29 03:57:28.652 [main] Search - Clicking the search button.
+[INFO ] 2024-02-29 03:57:30.742 [main] Search - Dismissing the pop-up.
+[INFO ] 2024-02-29 03:57:38.271 [main] Search - Setting up WebDriver and Page_search.
+[INFO ] 2024-02-29 03:57:39.376 [main] Search - Navigating to the search page.
+[INFO ] 2024-02-29 03:57:44.181 [main] Search - Search terms from Excel sheet: [Books, Computers, Mjolnir, cellphone, Computer, laptop, smartphone, Book]
+[ERROR] 2024-02-29 03:57:45.710 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot17905964570772354601.png
+[INFO ] 2024-02-29 03:58:15.347 [main] Search - Setting up WebDriver and Page_search.
+[INFO ] 2024-02-29 03:58:17.491 [main] Search - Navigating to the search page.
+[INFO ] 2024-02-29 03:58:21.022 [main] Search - Clicking the search button.
+[INFO ] 2024-02-29 03:58:23.120 [main] Search - Dismissing the pop-up.
+[INFO ] 2024-02-29 03:58:30.742 [main] Search - Setting up WebDriver and Page_search.
+[INFO ] 2024-02-29 03:58:31.925 [main] Search - Navigating to the search page.
+[INFO ] 2024-02-29 03:58:37.029 [main] Search - Search terms from Excel sheet: [Books, Computers, Mjolnir, cellphone, Computer, laptop, smartphone, Book]
+[ERROR] 2024-02-29 03:58:38.252 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot14575744336063770007.png
+[INFO ] 2024-02-29 03:59:15.259 [main] Search - Setting up WebDriver and Page_search.
+[INFO ] 2024-02-29 03:59:17.359 [main] Search - Navigating to the search page.
+[INFO ] 2024-02-29 03:59:20.872 [main] Search - Clicking the search button.
+[INFO ] 2024-02-29 03:59:22.979 [main] Search - Dismissing the pop-up.
+[INFO ] 2024-02-29 03:59:30.622 [main] Search - Setting up WebDriver and Page_search.
+[INFO ] 2024-02-29 03:59:31.863 [main] Search - Navigating to the search page.
+[INFO ] 2024-02-29 03:59:36.523 [main] Search - Search terms from Excel sheet: [Books, Computers, Mjolnir, cellphone, Computer, laptop, smartphone, Book]
+[ERROR] 2024-02-29 03:59:37.741 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot7527160287564815110.png
+[ERROR] 2024-02-29 03:59:38.861 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot8162072440581290750.png
+[ERROR] 2024-02-29 03:59:39.977 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot13319748865325143060.png
+[ERROR] 2024-02-29 03:59:41.094 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot8852255636522085408.png
+[INFO ] 2024-02-29 03:59:42.069 [main] Search - Search results displayed for: Computer
+[INFO ] 2024-02-29 03:59:43.163 [main] Search - Search results displayed for: laptop
+[INFO ] 2024-02-29 03:59:44.180 [main] Search - Search results displayed for: smartphone
+[INFO ] 2024-02-29 03:59:45.417 [main] Search - Search results displayed for: Book
+[INFO ] 2024-02-29 03:59:45.427 [main] Search - Search results displayed for: <search_term>
+[INFO ] 2024-02-29 04:07:09.657 [main] Search - Setting up WebDriver and Page_search.
+[INFO ] 2024-02-29 04:07:11.945 [main] Search - Navigating to the search page.
+[INFO ] 2024-02-29 04:07:15.429 [main] Search - Clicking the search button.
+[INFO ] 2024-02-29 04:07:17.517 [main] Search - Dismissing the pop-up.
+[INFO ] 2024-02-29 04:07:24.823 [main] Search - Setting up WebDriver and Page_search.
+[INFO ] 2024-02-29 04:07:26.342 [main] Search - Navigating to the search page.
+[INFO ] 2024-02-29 04:07:30.816 [main] Search - Search terms from Excel sheet: [Books, Computers, Mjolnir, cellphone, Computer, laptop, smartphone, Book]
+[ERROR] 2024-02-29 04:07:32.167 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot5355660425007477797.png
+[ERROR] 2024-02-29 04:07:33.319 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot2298631607868422217.png
+[ERROR] 2024-02-29 04:07:35.286 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot16639581209686196044.png
+[ERROR] 2024-02-29 04:07:35.680 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot15110558812324169892.png
+[ERROR] 2024-02-29 04:07:37.065 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot13085761092562920634.png
+[INFO ] 2024-02-29 04:07:38.013 [main] Search - Search results displayed for: laptop
+[INFO ] 2024-02-29 04:07:39.264 [main] Search - Search results displayed for: smartphone
+[INFO ] 2024-02-29 04:07:40.259 [main] Search - Search results displayed for: Book
+[INFO ] 2024-02-29 04:07:40.273 [main] Search - Search results displayed for: <search_term>
+[INFO ] 2024-02-29 04:11:22.154 [main] Search - Setting up WebDriver and Page_search.
+[INFO ] 2024-02-29 04:11:24.271 [main] Search - Navigating to the search page.
+[INFO ] 2024-02-29 04:11:27.264 [main] Search - Clicking the search button.
+[INFO ] 2024-02-29 04:11:29.352 [main] Search - Dismissing the pop-up.
+[INFO ] 2024-02-29 04:11:36.494 [main] Search - Setting up WebDriver and Page_search.
+[INFO ] 2024-02-29 04:11:37.646 [main] Search - Navigating to the search page.
+[INFO ] 2024-02-29 04:11:41.980 [main] Search - Search terms from Excel sheet: [Books, Computers, Mjolnir, cellphone, Computer, laptop, smartphone, Book]
+[ERROR] 2024-02-29 04:11:43.701 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot15647628778214606878.png
+[ERROR] 2024-02-29 04:11:44.907 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot656389843918078832.png
+[ERROR] 2024-02-29 04:11:46.000 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot8333366304223990588.png
+[ERROR] 2024-02-29 04:11:47.064 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot17763479901129992074.png
+[INFO ] 2024-02-29 04:11:48.026 [main] Search - Search results displayed for: Computer
+[INFO ] 2024-02-29 04:11:49.009 [main] Search - Search results displayed for: laptop
+[INFO ] 2024-02-29 04:11:50.059 [main] Search - Search results displayed for: smartphone
+[INFO ] 2024-02-29 04:11:51.369 [main] Search - Search results displayed for: Book
+[INFO ] 2024-02-29 04:11:51.384 [main] Search - Search results displayed for: <search_term>
+[INFO ] 2024-02-29 04:13:39.871 [main] Checkout - User navigates to the URL
+[INFO ] 2024-02-29 04:13:43.926 [main] Checkout - User performs the login process
+[INFO ] 2024-02-29 04:13:47.985 [main] Checkout - Validate the login is successful
+[INFO ] 2024-02-29 04:13:52.042 [main] Checkout - User clicks on book menu
+[INFO ] 2024-02-29 04:13:55.052 [main] Checkout - User add third book to cart
+[INFO ] 2024-02-29 04:13:59.956 [main] Checkout - User clicks on the checkbox
+[INFO ] 2024-02-29 04:15:26.098 [main] Checkout - User navigates to the URL
+[INFO ] 2024-02-29 04:15:30.286 [main] Checkout - User performs the login process
+[INFO ] 2024-02-29 04:15:32.896 [main] Checkout - Validate the login is successful
+[INFO ] 2024-02-29 04:15:36.935 [main] Checkout - User clicks on book menu
+[INFO ] 2024-02-29 04:15:40.802 [main] Checkout - User add third book to cart
+[INFO ] 2024-02-29 04:15:46.209 [main] Checkout - User clicks on the checkbox
+[INFO ] 2024-02-29 04:15:49.346 [main] Checkout - User should able to checkout
+[INFO ] 2024-02-29 04:15:54.287 [main] Checkout - billing information
+[INFO ] 2024-02-29 04:15:56.369 [main] Checkout - enters valid shipping
+[INFO ] 2024-02-29 04:16:00.493 [main] Checkout - select shipping type
+[INFO ] 2024-02-29 04:16:06.717 [main] Checkout - selects a payment method
+[INFO ] 2024-02-29 04:17:24.877 [main] Subscription - Navigating to the URL
+[INFO ] 2024-02-29 04:17:28.314 [main] Subscription - Clicking on login link
+[INFO ] 2024-02-29 04:17:30.926 [main] Subscription - Entering the Email id
+[INFO ] 2024-02-29 04:17:33.095 [main] Subscription - Entering the Password
+[INFO ] 2024-02-29 04:17:35.264 [main] Subscription - Clicking on login button
+[INFO ] 2024-02-29 04:17:38.319 [main] Subscription - Entering the signup mail id
+[INFO ] 2024-02-29 04:17:42.474 [main] Subscription - Clicking on Subscribe
+[INFO ] 2024-02-29 04:17:47.677 [main] Subscription - Clicking on logout
+[INFO ] 2024-02-29 04:17:58.632 [main] Subscription - Navigating to the URL
+[INFO ] 2024-02-29 04:18:02.201 [main] Subscription - Clicking on login link
+[INFO ] 2024-02-29 04:18:04.871 [main] Subscription - Entering the Email id
+[INFO ] 2024-02-29 04:18:06.997 [main] Subscription - Entering the Password
+[INFO ] 2024-02-29 04:18:09.119 [main] Subscription - Clicking on login button
+[INFO ] 2024-02-29 04:18:12.198 [main] Subscription - Entering the signup mail id
+[INFO ] 2024-02-29 04:18:16.339 [main] Subscription - Clicking on Subscribe
+[INFO ] 2024-02-29 04:18:21.769 [main] Subscription - Clicking on logout
+[INFO ] 2024-02-29 04:18:25.198 [main] Subscription - Clicking on logout
+[INFO ] 2024-02-29 04:18:56.848 [main] Poll - URL
+[INFO ] 2024-02-29 04:19:00.442 [main] Poll - Users direct click on vote button
+[INFO ] 2024-02-29 04:19:07.606 [main] Poll - URL
+[INFO ] 2024-02-29 04:19:11.048 [main] Poll - Users selects the poll  
+[INFO ] 2024-02-29 04:19:11.182 [main] Poll - User Click on the vote button
+[INFO ] 2024-02-29 04:19:19.511 [main] Poll - URL
+[INFO ] 2024-02-29 04:19:24.650 [main] Poll - Users select one option from poll
+[INFO ] 2024-02-29 04:19:31.877 [main] Poll - URL
+[INFO ] 2024-02-29 04:19:37.653 [main] Poll - Users select one option from poll
+[INFO ] 2024-02-29 04:22:00.161 [main] Poll - URL
+[INFO ] 2024-02-29 04:22:03.534 [main] Poll - Users direct click on vote button
+[INFO ] 2024-02-29 04:22:10.806 [main] Poll - URL
+[INFO ] 2024-02-29 04:22:14.241 [main] Poll - Users selects the poll  
+[INFO ] 2024-02-29 04:22:14.391 [main] Poll - User Click on the vote button
+[INFO ] 2024-02-29 04:22:23.307 [main] Poll - URL
+[INFO ] 2024-02-29 04:22:29.726 [main] Poll - Users select one option from poll
+[INFO ] 2024-02-29 04:22:37.738 [main] Poll - URL
+[INFO ] 2024-02-29 04:22:43.162 [main] Poll - Users select one option from poll
+[INFO ] 2024-02-29 04:26:32.519 [main] Poll - URL
+[INFO ] 2024-02-29 04:26:35.769 [main] Poll - Users direct click on vote button
+[INFO ] 2024-02-29 04:26:42.927 [main] Poll - URL
+[INFO ] 2024-02-29 04:26:46.384 [main] Poll - Users selects the poll  
+[INFO ] 2024-02-29 04:26:46.512 [main] Poll - User Click on the vote button
+[INFO ] 2024-02-29 04:26:54.462 [main] Poll - URL
+[INFO ] 2024-02-29 04:26:59.585 [main] Poll - Users select one option from poll
+[INFO ] 2024-02-29 04:27:06.719 [main] Poll - URL
+[INFO ] 2024-02-29 04:27:12.043 [main] Poll - Users select one option from poll
+[INFO ] 2024-02-29 04:28:32.861 [main] Poll - URL
+[INFO ] 2024-02-29 04:28:36.590 [main] Poll - Users direct click on vote button
+[INFO ] 2024-02-29 04:28:43.557 [main] Poll - URL
+[INFO ] 2024-02-29 04:28:47.254 [main] Poll - Users selects the poll  
+[INFO ] 2024-02-29 04:28:47.361 [main] Poll - User Click on the vote button
+[INFO ] 2024-02-29 04:28:55.156 [main] Poll - URL
+[INFO ] 2024-02-29 04:29:00.189 [main] Poll - Users select one option from poll
+[INFO ] 2024-02-29 04:29:07.265 [main] Poll - URL
+[INFO ] 2024-02-29 04:29:12.590 [main] Poll - Users select one option from poll
+[INFO ] 2024-02-29 04:32:27.153 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 04:32:27.874 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 04:32:27.948 [main] Registration - selecting gender
+[INFO ] 2024-02-29 04:32:28.751 [main] Registration - user enters first name
+[INFO ] 2024-02-29 04:32:28.888 [main] Registration - user enters last name
+[INFO ] 2024-02-29 04:32:29.037 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 04:32:29.164 [main] Registration - user enters password
+[INFO ] 2024-02-29 04:32:29.292 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 04:32:42.551 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 04:32:43.207 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 04:32:43.282 [main] Registration - selecting gender
+[INFO ] 2024-02-29 04:32:43.412 [main] Registration - user enters first name
+[INFO ] 2024-02-29 04:32:43.541 [main] Registration - user enters last name
+[INFO ] 2024-02-29 04:32:43.700 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 04:32:43.834 [main] Registration - user enters password
+[INFO ] 2024-02-29 04:32:43.959 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 04:32:54.521 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 04:32:55.251 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 04:32:55.337 [main] Registration - selecting gender
+[INFO ] 2024-02-29 04:32:55.471 [main] Registration - user enters first name
+[INFO ] 2024-02-29 04:32:55.606 [main] Registration - user enters last name
+[INFO ] 2024-02-29 04:32:55.746 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 04:32:55.880 [main] Registration - user enters password
+[INFO ] 2024-02-29 04:32:55.988 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 04:33:06.375 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 04:33:07.062 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 04:33:07.134 [main] Registration - selecting gender
+[INFO ] 2024-02-29 04:33:07.240 [main] Registration - user enters first name
+[INFO ] 2024-02-29 04:33:07.337 [main] Registration - user enters last name
+[INFO ] 2024-02-29 04:33:07.442 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 04:33:07.550 [main] Registration - user enters password
+[INFO ] 2024-02-29 04:33:07.645 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 04:33:17.859 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 04:33:18.583 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 04:33:18.652 [main] Registration - selecting gender
+[INFO ] 2024-02-29 04:33:18.771 [main] Registration - user enters first name
+[INFO ] 2024-02-29 04:33:18.887 [main] Registration - user enters last name
+[INFO ] 2024-02-29 04:33:18.996 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 04:33:19.143 [main] Registration - user enters password
+[INFO ] 2024-02-29 04:33:19.277 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 04:33:29.380 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 04:33:30.001 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 04:33:30.067 [main] Registration - selecting gender
+[INFO ] 2024-02-29 04:33:30.182 [main] Registration - user enters first name
+[INFO ] 2024-02-29 04:33:30.318 [main] Registration - user enters last name
+[INFO ] 2024-02-29 04:33:30.409 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 04:33:30.530 [main] Registration - user enters password
+[INFO ] 2024-02-29 04:33:30.663 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 04:33:40.902 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 04:33:41.588 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 04:33:41.684 [main] Registration - selecting gender
+[INFO ] 2024-02-29 04:33:41.786 [main] Registration - user enters first name
+[INFO ] 2024-02-29 04:33:41.869 [main] Registration - user enters last name
+[INFO ] 2024-02-29 04:33:41.967 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 04:33:42.039 [main] Registration - user enters password
+[INFO ] 2024-02-29 04:33:42.126 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 04:33:52.893 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 04:33:53.615 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 04:33:53.699 [main] Registration - selecting gender
+[INFO ] 2024-02-29 04:33:53.826 [main] Registration - user enters first name
+[INFO ] 2024-02-29 04:33:53.932 [main] Registration - user enters last name
+[INFO ] 2024-02-29 04:33:54.066 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 04:33:54.156 [main] Registration - user enters password
+[INFO ] 2024-02-29 04:33:54.271 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 04:34:04.782 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 04:34:05.474 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 04:34:05.545 [main] Registration - selecting gender
+[INFO ] 2024-02-29 04:34:05.658 [main] Registration - user enters first name
+[INFO ] 2024-02-29 04:34:05.762 [main] Registration - user enters last name
+[INFO ] 2024-02-29 04:34:05.913 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 04:34:06.035 [main] Registration - user enters password
+[INFO ] 2024-02-29 04:34:06.156 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 04:34:17.223 [main] Registration - user is on the home page
+[INFO ] 2024-02-29 04:34:17.854 [main] Registration - user is on the register page
+[INFO ] 2024-02-29 04:34:17.926 [main] Registration - selecting gender
+[INFO ] 2024-02-29 04:34:18.028 [main] Registration - user enters first name
+[INFO ] 2024-02-29 04:34:18.150 [main] Registration - user enters last name
+[INFO ] 2024-02-29 04:34:18.298 [main] Registration - user enters Email ID
+[INFO ] 2024-02-29 04:34:18.410 [main] Registration - user enters password
+[INFO ] 2024-02-29 04:34:18.532 [main] Registration - user enters confirm password
+[INFO ] 2024-02-29 04:34:30.489 [main] Login - user Navigates To Login Page
+[INFO ] 2024-02-29 04:34:39.553 [main] Login - user Enters email And Password
+[INFO ] 2024-02-29 04:34:39.758 [main] Login - clicks Login Button
+[INFO ] 2024-02-29 04:34:41.424 [main] Login - message Should Be Displayed
+[INFO ] 2024-02-29 04:34:48.185 [main] Login - user Navigates To Login Page
+[INFO ] 2024-02-29 04:34:57.621 [main] Login - user Enters email And Password
+[INFO ] 2024-02-29 04:34:57.819 [main] Login - clicks Login Button
+[INFO ] 2024-02-29 04:34:59.312 [main] Login - message Should Be Displayed
+[INFO ] 2024-02-29 04:35:06.349 [main] Login - user Navigates To Login Page
+[INFO ] 2024-02-29 04:35:15.459 [main] Login - user Enters email And Password
+[INFO ] 2024-02-29 04:35:15.682 [main] Login - clicks Login Button
+[INFO ] 2024-02-29 04:35:16.907 [main] Login - message Should Be Displayed
+[INFO ] 2024-02-29 04:35:23.898 [main] Login - user Navigates To Login Page
+[INFO ] 2024-02-29 04:35:32.903 [main] Login - user Enters email And Password
+[INFO ] 2024-02-29 04:35:33.089 [main] Login - clicks Login Button
+[INFO ] 2024-02-29 04:35:34.317 [main] Login - message Should Be Displayed
+[INFO ] 2024-02-29 04:35:41.244 [main] Login - user Navigates To Login Page
+[INFO ] 2024-02-29 04:35:50.522 [main] Login - user Enters email And Password
+[INFO ] 2024-02-29 04:35:50.726 [main] Login - clicks Login Button
+[INFO ] 2024-02-29 04:35:51.994 [main] Login - message Should Be Displayed
+[INFO ] 2024-02-29 04:35:59.043 [main] Login - user Navigates To Login Page
+[INFO ] 2024-02-29 04:36:08.191 [main] Login - user Enters email And Password
+[INFO ] 2024-02-29 04:36:08.325 [main] Login - clicks Login Button
+[INFO ] 2024-02-29 04:36:09.529 [main] Login - message Should Be Displayed
+[INFO ] 2024-02-29 04:36:16.387 [main] Login - user Navigates To Login Page
+[INFO ] 2024-02-29 04:36:25.801 [main] Login - user Enters email And Password
+[INFO ] 2024-02-29 04:36:25.911 [main] Login - clicks Login Button
+[INFO ] 2024-02-29 04:36:27.099 [main] Login - message Should Be Displayed
+[INFO ] 2024-02-29 04:36:36.951 [main] Cart - Navigating to the URL
+[INFO ] 2024-02-29 04:36:41.074 [main] Cart - Performing the login process
+[INFO ] 2024-02-29 04:36:43.575 [main] Cart - Validating the login process
+[INFO ] 2024-02-29 04:36:45.600 [main] Cart - Clicking on the book menu
+[INFO ] 2024-02-29 04:36:47.044 [main] Cart - Validating add to cart buttons for all books
+[INFO ] 2024-02-29 04:37:02.689 [main] Cart - Navigating to the URL
+[INFO ] 2024-02-29 04:37:06.095 [main] Cart - Performing the login process
+[INFO ] 2024-02-29 04:37:07.913 [main] Cart - Validating the login process
+[INFO ] 2024-02-29 04:37:09.928 [main] Cart - Clicking on the book menu
+[INFO ] 2024-02-29 04:37:11.555 [main] Cart - Validating add to cart buttons for all books
+[INFO ] 2024-02-29 04:37:23.728 [main] Cart - Navigating to the URL
+[INFO ] 2024-02-29 04:37:27.322 [main] Cart - Performing the login process
+[INFO ] 2024-02-29 04:37:29.206 [main] Cart - Validating the login process
+[INFO ] 2024-02-29 04:37:31.227 [main] Cart - Clicking on the book menu
+[INFO ] 2024-02-29 04:37:32.778 [main] Cart - Adding the third book to the cart
+[INFO ] 2024-02-29 04:37:38.713 [main] Cart - Validating the third book is successfully added to the cart
+[INFO ] 2024-02-29 04:37:46.713 [main] Cart - Navigating to the URL
+[INFO ] 2024-02-29 04:37:50.306 [main] Cart - Performing the login process
+[INFO ] 2024-02-29 04:37:52.069 [main] Cart - Validating the login process
+[INFO ] 2024-02-29 04:37:54.095 [main] Cart - Clicking on the book menu
+[INFO ] 2024-02-29 04:37:55.671 [main] Cart - Adding any 3 products to the cart
+[INFO ] 2024-02-29 04:37:58.517 [main] Cart - Deleting any two products from the cart
+[INFO ] 2024-02-29 04:38:02.292 [main] Cart - Validating the cart after deleting the products
+[INFO ] 2024-02-29 04:38:13.775 [main] WishList - User navigates to the URL
+[INFO ] 2024-02-29 04:38:17.148 [main] WishList - User performs the login process
+[INFO ] 2024-02-29 04:38:19.442 [main] WishList - Validate the login is successfulL
+[INFO ] 2024-02-29 04:38:19.452 [main] WishList - the user is on the Demo Web Shop homepage
+[INFO ] 2024-02-29 04:38:20.639 [main] WishList - the user clicks on {string}
+[INFO ] 2024-02-29 04:38:22.183 [main] WishList - the user adds products to the wishlist
+[INFO ] 2024-02-29 04:38:37.775 [main] WishList - the user goes to the Wishlist
+[INFO ] 2024-02-29 04:38:39.142 [main] WishList - the user removes a product from the Wishlist
+[INFO ] 2024-02-29 04:38:40.497 [main] WishList - the Wishlist should be updated accordingly
+[INFO ] 2024-02-29 04:38:48.991 [main] Checkout - User navigates to the URL
+[INFO ] 2024-02-29 04:38:52.317 [main] Checkout - User performs the login process
+[INFO ] 2024-02-29 04:38:54.127 [main] Checkout - Validate the login is successful
+[INFO ] 2024-02-29 04:38:58.170 [main] Checkout - User clicks on book menu
+[INFO ] 2024-02-29 04:39:01.811 [main] Checkout - User add third book to cart
+[INFO ] 2024-02-29 04:39:06.521 [main] Checkout - User clicks on the checkbox
+[INFO ] 2024-02-29 04:39:09.620 [main] Checkout - User should able to checkout
+[INFO ] 2024-02-29 04:39:13.208 [main] Checkout - billing information
+[INFO ] 2024-02-29 04:39:15.335 [main] Checkout - enters valid shipping
+[INFO ] 2024-02-29 04:39:19.434 [main] Checkout - select shipping type
+[INFO ] 2024-02-29 04:39:25.665 [main] Checkout - selects a payment method
+[INFO ] 2024-02-29 04:39:48.926 [main] Search - Setting up WebDriver and Page_search.
+[INFO ] 2024-02-29 04:39:50.067 [main] Search - Navigating to the search page.
+[INFO ] 2024-02-29 04:39:53.352 [main] Search - Clicking the search button.
+[INFO ] 2024-02-29 04:39:55.459 [main] Search - Dismissing the pop-up.
+[INFO ] 2024-02-29 04:40:02.267 [main] Search - Setting up WebDriver and Page_search.
+[INFO ] 2024-02-29 04:40:03.330 [main] Search - Navigating to the search page.
+[INFO ] 2024-02-29 04:40:06.582 [main] Search - Search terms from Excel sheet: [Books, Computers, Mjolnir, cellphone, Computer, laptop, smartphone, Book]
+[ERROR] 2024-02-29 04:40:07.862 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot3743953927969076996.png
+[ERROR] 2024-02-29 04:40:09.503 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot10859029967883359386.png
+[ERROR] 2024-02-29 04:40:10.610 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot8935105270052492201.png
+[ERROR] 2024-02-29 04:40:11.697 [main] Search - Screenshot captured: D:\demowebshop.tricentis.com\ScreenShots\Search\C:\Users\shiva\AppData\Local\Temp\screenshot11330875119465468327.png
+[INFO ] 2024-02-29 04:40:12.633 [main] Search - Search results displayed for: Computer
+[INFO ] 2024-02-29 04:40:13.608 [main] Search - Search results displayed for: laptop
+[INFO ] 2024-02-29 04:40:14.592 [main] Search - Search results displayed for: smartphone
+[INFO ] 2024-02-29 04:40:15.545 [main] Search - Search results displayed for: Book
+[INFO ] 2024-02-29 04:40:15.556 [main] Search - Search results displayed for: <search_term>
+[INFO ] 2024-02-29 04:40:25.591 [main] Poll - URL
+[INFO ] 2024-02-29 04:40:28.941 [main] Poll - Users direct click on vote button
+[INFO ] 2024-02-29 04:40:35.900 [main] Poll - URL
+[INFO ] 2024-02-29 04:40:39.324 [main] Poll - Users selects the poll  
+[INFO ] 2024-02-29 04:40:39.444 [main] Poll - User Click on the vote button
+[INFO ] 2024-02-29 04:40:47.830 [main] Poll - URL
+[INFO ] 2024-02-29 04:40:51.606 [main] Poll - Users selects the poll  
+[INFO ] 2024-02-29 04:40:51.717 [main] Poll - User Click on the vote button
+[INFO ] 2024-02-29 04:41:00.005 [main] Poll - URL
+[INFO ] 2024-02-29 04:41:05.274 [main] Poll - Users select one option from poll
+[INFO ] 2024-02-29 04:41:12.555 [main] Poll - URL
+[INFO ] 2024-02-29 04:41:17.863 [main] Poll - Users select one option from poll
+[INFO ] 2024-02-29 04:41:24.952 [main] Poll - URL
+[INFO ] 2024-02-29 04:41:30.037 [main] Poll - Users select one option from poll
+[INFO ] 2024-02-29 04:41:39.468 [main] Subscription - Navigating to the URL
+[INFO ] 2024-02-29 04:41:42.716 [main] Subscription - Clicking on login link
+[INFO ] 2024-02-29 04:41:45.980 [main] Subscription - Entering the Email id
+[INFO ] 2024-02-29 04:41:48.097 [main] Subscription - Entering the Password
+[INFO ] 2024-02-29 04:41:50.199 [main] Subscription - Clicking on login button
+[INFO ] 2024-02-29 04:41:53.190 [main] Subscription - Entering the signup mail id
+[INFO ] 2024-02-29 04:41:57.358 [main] Subscription - Clicking on Subscribe
+[INFO ] 2024-02-29 04:42:02.519 [main] Subscription - Clicking on logout
+[INFO ] 2024-02-29 04:42:13.912 [main] Subscription - Navigating to the URL
+[INFO ] 2024-02-29 04:42:17.269 [main] Subscription - Clicking on login link
+[INFO ] 2024-02-29 04:42:20.751 [main] Subscription - Entering the Email id
+[INFO ] 2024-02-29 04:42:22.878 [main] Subscription - Entering the Password
+[INFO ] 2024-02-29 04:42:24.998 [main] Subscription - Clicking on login button
+[INFO ] 2024-02-29 04:42:28.776 [main] Subscription - Entering the signup mail id
+[INFO ] 2024-02-29 04:42:32.946 [main] Subscription - Clicking on Subscribe
+[INFO ] 2024-02-29 04:42:38.253 [main] Subscription - Clicking on logout
+[INFO ] 2024-02-29 04:42:41.960 [main] Subscription - Clicking on logout
+[INFO ] 2024-02-29 04:42:51.389 [main] Subscription - Navigating to the URL
+[INFO ] 2024-02-29 04:43:10.952 [main] Subscription - Clicking on login link
+[INFO ] 2024-02-29 04:43:13.841 [main] Subscription - Entering the Email id
+[INFO ] 2024-02-29 04:43:15.963 [main] Subscription - Entering the Password
+[INFO ] 2024-02-29 04:43:18.083 [main] Subscription - Clicking on login button
+[INFO ] 2024-02-29 04:43:21.724 [main] Subscription - Entering the signup mail id
+[INFO ] 2024-02-29 04:43:25.876 [main] Subscription - Clicking on Subscribe
+[INFO ] 2024-02-29 04:43:31.221 [main] Subscription - Clicking on logout
+[INFO ] 2024-02-29 04:43:34.956 [main] Subscription - Clicking on logout
