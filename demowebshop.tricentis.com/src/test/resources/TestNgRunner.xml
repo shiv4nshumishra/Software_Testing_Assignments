@@ -1,0 +1,20 @@
+<suite name="demowebshop.tricentis.com Suite">
+	<listeners>
+		<listener
+			class-name="TestNGListners.CucumberExtentReportListener" />
+
+		<listener class-name="TestNGListners.Transformer" />
+	</listeners>
+	<test name="CucumberTest">
+		<classes>
+			<class name="Runner.Registration" />
+			<class name="Runner.Login" />
+			<class name="Runner.Cart" />
+			<class name="Runner.WishList" />
+			<class name="Runner.Checkout" />
+			<class name="Runner.Search" />
+			<class name="Runner.Poll" />
+			<class name="Runner.Subscription" />
+		</classes>
+	</test>
+</suite>

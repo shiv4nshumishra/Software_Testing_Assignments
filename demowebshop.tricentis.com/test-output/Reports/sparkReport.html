@@ -1,0 +1,3793 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Extent</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Grasshopper Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Feb 29, 2024 12:57:46 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Feb 29, 2024 12:57:46 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Feb 29, 2024 01:08:44 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>2</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>5</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='28%'>
+<b>2</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='71%'><b>5</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='45%'><b>18</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='55%'><b>22</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='93%'><b>305</b> steps passed</small></div>
+<div>
+<small data-tooltip='6%'><b>22</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"To Test the DemoWebShop Register functionality":104.842,"To Test DemoWebShop Login functionality":119.217,"To Test DemowebShop Add/Remove from cart functionality":95.167,"To Test DemoWebShop Wishlist Functionality":20.821,"To Test DemoWebshop Checkout Functionality":63.782,"To Test DemoWebshop Community Poll Functionality":76.701,"To Test DemoWebshop NewsLetter Subscription Functionality":106.908
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@PollTest</td>
+<td>2</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>28.571%</td>
+</tr>
+<tr>
+<td>@CartTest</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>@SubscriptionTest</td>
+<td>1</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>25%</td>
+</tr>
+<tr>
+<td>@RegistrationTest</td>
+<td>10</td>
+<td>9</td>
+<td>0</td>
+<td>0</td>
+<td>52.632%</td>
+</tr>
+<tr>
+<td>@WishListTest</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@CheckoutTest</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@LoginTest</td>
+<td>1</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>12.5%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>AppName</td>
+<td>DemoWebShopAutomation</td>
+</tr>
+<tr>
+<td>user</td>
+<td>iamalexanderwho</td>
+</tr>
+<tr>
+<td>build</td>
+<td>1.1</td>
+</tr>
+<tr>
+<td>os</td>
+<td>Windows</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 2,
+failParent: 5,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 18,
+failChild: 22,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 305,
+failGrandChild: 22,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script><div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@PollTest</a><a class="dropdown-item" href="#">@CartTest</a><a class="dropdown-item" href="#">@SubscriptionTest</a><a class="dropdown-item" href="#">@RegistrationTest</a><a class="dropdown-item" href="#">@WishListTest</a><a class="dropdown-item" href="#">@CheckoutTest</a><a class="dropdown-item" href="#">@LoginTest</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">To Test the DemoWebShop Register functionality</p>
+            <p class="text-sm">
+              <span>12:57:47 AM</span> / <span>00:01:44:842</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">To Test the DemoWebShop Register functionality</h5>
+<span class='badge badge-success'>02.29.2024 12:57:47 AM</span>
+<span class='badge badge-danger'>02.29.2024 12:59:32 AM</span>
+<span class='badge badge-default'>00:01:44:842</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Register user with different data</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Register user with different data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="4"><span class="badge log pass-bg mr-2">Pass</span>Register user with different data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the user is on the home page</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given the user is on the home page</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on the register link</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on the register link</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user selects gender</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user selects gender</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters First Name from Excel 0</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters First Name from Excel 0</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters Last Name from Excel 0</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters Last Name from Excel 0</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters email from Excel 0</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters email from Excel 0</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password from Excel 0</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password from Excel 0</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters confirm password from Excel 0</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters confirm password from Excel 0</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user clicks on register</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user clicks on register</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.WishList.closebrowser()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Registration.quitBrowser()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Poll.quitBrowserSession()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Login.quitBrowserSession()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Cart.quitBrowserSession()</span>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="33"><span class="badge log pass-bg mr-2">Pass</span>Register user with different data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="34"><span class="badge log fail-bg mr-2">Fail</span>Register user with different data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the user is on the home page</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given the user is on the home page</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on the register link</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on the register link</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user selects gender</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user selects gender</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters First Name from Excel 1</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters First Name from Excel 1</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters Last Name from Excel 1</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters Last Name from Excel 1</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters email from Excel 1</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters email from Excel 1</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password from Excel 1</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password from Excel 1</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters confirm password from Excel 1</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters confirm password from Excel 1</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user clicks on register</span>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And the user clicks on register</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Failure got to catch block
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+	at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+</textarea>
+      
+      </div>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Failure got to catch block
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+	at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.WishList.closebrowser()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Registration.quitBrowser()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Poll.quitBrowserSession()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Login.quitBrowserSession()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Cart.quitBrowserSession()</span>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="63"><span class="badge log pass-bg mr-2">Pass</span>Register user with different data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="64"><span class="badge log fail-bg mr-2">Fail</span>Register user with different data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the user is on the home page</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given the user is on the home page</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on the register link</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on the register link</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user selects gender</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user selects gender</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters First Name from Excel 1</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters First Name from Excel 1</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters Last Name from Excel 1</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters Last Name from Excel 1</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters email from Excel 1</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters email from Excel 1</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password from Excel 1</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password from Excel 1</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters confirm password from Excel 1</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters confirm password from Excel 1</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user clicks on register</span>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And the user clicks on register</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Failure got to catch block
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+	at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+</textarea>
+      
+      </div>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Failure got to catch block
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+	at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.WishList.closebrowser()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Registration.quitBrowser()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Poll.quitBrowserSession()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Login.quitBrowserSession()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Cart.quitBrowserSession()</span>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="93"><span class="badge log pass-bg mr-2">Pass</span>Register user with different data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="94"><span class="badge log fail-bg mr-2">Fail</span>Register user with different data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the user is on the home page</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given the user is on the home page</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on the register link</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on the register link</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user selects gender</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user selects gender</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters First Name from Excel 2</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters First Name from Excel 2</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters Last Name from Excel 2</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters Last Name from Excel 2</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters email from Excel 2</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters email from Excel 2</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password from Excel 2</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password from Excel 2</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters confirm password from Excel 2</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters confirm password from Excel 2</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user clicks on register</span>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And the user clicks on register</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Failure got to catch block
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+	at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+</textarea>
+      
+      </div>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Failure got to catch block
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+	at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.WishList.closebrowser()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Registration.quitBrowser()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Poll.quitBrowserSession()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Login.quitBrowserSession()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Cart.quitBrowserSession()</span>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="123"><span class="badge log pass-bg mr-2">Pass</span>Register user with different data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="124"><span class="badge log fail-bg mr-2">Fail</span>Register user with different data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the user is on the home page</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given the user is on the home page</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on the register link</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on the register link</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user selects gender</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user selects gender</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters First Name from Excel 2</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters First Name from Excel 2</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters Last Name from Excel 2</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters Last Name from Excel 2</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters email from Excel 2</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters email from Excel 2</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password from Excel 2</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password from Excel 2</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters confirm password from Excel 2</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters confirm password from Excel 2</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user clicks on register</span>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And the user clicks on register</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Failure got to catch block
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+	at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+</textarea>
+      
+      </div>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Failure got to catch block
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+	at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.WishList.closebrowser()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Registration.quitBrowser()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Poll.quitBrowserSession()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Login.quitBrowserSession()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Cart.quitBrowserSession()</span>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="153"><span class="badge log pass-bg mr-2">Pass</span>Register user with different data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="154"><span class="badge log fail-bg mr-2">Fail</span>Register user with different data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the user is on the home page</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given the user is on the home page</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on the register link</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on the register link</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user selects gender</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user selects gender</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters First Name from Excel 3</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters First Name from Excel 3</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters Last Name from Excel 3</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters Last Name from Excel 3</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters email from Excel 3</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters email from Excel 3</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password from Excel 3</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password from Excel 3</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters confirm password from Excel 3</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters confirm password from Excel 3</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user clicks on register</span>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And the user clicks on register</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Failure got to catch block
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+	at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+</textarea>
+      
+      </div>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Failure got to catch block
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+	at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.WishList.closebrowser()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Registration.quitBrowser()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Poll.quitBrowserSession()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Login.quitBrowserSession()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Cart.quitBrowserSession()</span>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="183"><span class="badge log pass-bg mr-2">Pass</span>Register user with different data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="184"><span class="badge log fail-bg mr-2">Fail</span>Register user with different data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the user is on the home page</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given the user is on the home page</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on the register link</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on the register link</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user selects gender</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user selects gender</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters First Name from Excel 3</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters First Name from Excel 3</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters Last Name from Excel 3</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters Last Name from Excel 3</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters email from Excel 3</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters email from Excel 3</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password from Excel 3</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password from Excel 3</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters confirm password from Excel 3</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters confirm password from Excel 3</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user clicks on register</span>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And the user clicks on register</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Failure got to catch block
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+	at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+</textarea>
+      
+      </div>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Failure got to catch block
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+	at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.WishList.closebrowser()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Registration.quitBrowser()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Poll.quitBrowserSession()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Login.quitBrowserSession()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Cart.quitBrowserSession()</span>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="213"><span class="badge log pass-bg mr-2">Pass</span>Register user with different data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="214"><span class="badge log fail-bg mr-2">Fail</span>Register user with different data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the user is on the home page</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given the user is on the home page</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on the register link</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on the register link</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user selects gender</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user selects gender</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters First Name from Excel 4</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters First Name from Excel 4</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters Last Name from Excel 4</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters Last Name from Excel 4</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters email from Excel 4</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters email from Excel 4</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password from Excel 4</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password from Excel 4</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters confirm password from Excel 4</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters confirm password from Excel 4</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user clicks on register</span>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And the user clicks on register</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Failure got to catch block
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+	at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+</textarea>
+      
+      </div>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Failure got to catch block
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+	at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.WishList.closebrowser()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Registration.quitBrowser()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Poll.quitBrowserSession()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Login.quitBrowserSession()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Cart.quitBrowserSession()</span>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="243"><span class="badge log pass-bg mr-2">Pass</span>Register user with different data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="244"><span class="badge log fail-bg mr-2">Fail</span>Register user with different data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the user is on the home page</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given the user is on the home page</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on the register link</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on the register link</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user selects gender</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user selects gender</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters First Name from Excel 4</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters First Name from Excel 4</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters Last Name from Excel 4</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters Last Name from Excel 4</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters email from Excel 4</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters email from Excel 4</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password from Excel 4</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password from Excel 4</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters confirm password from Excel 4</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters confirm password from Excel 4</span>
+      <div>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user clicks on register</span>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And the user clicks on register</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Failure got to catch block
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+	at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+</textarea>
+      
+      </div>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Failure got to catch block
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+	at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.WishList.closebrowser()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Registration.quitBrowser()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Poll.quitBrowserSession()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Login.quitBrowserSession()</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Steps.Cart.quitBrowserSession()</span>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="273"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">To Test DemoWebShop Login functionality</p>
+            <p class="text-sm">
+              <span>12:59:36 AM</span> / <span>00:01:59:217</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">To Test DemoWebShop Login functionality</h5>
+<span class='badge badge-success'>02.29.2024 12:59:36 AM</span>
+<span class='badge badge-danger'>02.29.2024 1:01:35 AM</span>
+<span class='badge badge-default'>00:01:59:217</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=273</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="274"><span class="badge log fail-bg mr-2">Fail</span>User login with different credentials</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="275"><span class="badge log pass-bg mr-2">Pass</span>User login with different credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user navigates to the login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters 'iamalexanderwho@gmail.com' and '12345678'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And clicks the login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Message Should Be Displayed 'logged_in_successfully'</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="285"><span class="badge log fail-bg mr-2">Fail</span>User login with different credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given user navigates to the login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters 'shahrukhkhan@gmail.com' and 'shahrukhkhan@12345'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And clicks the login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Message Should Be Displayed 'incorrect email or Password'</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=122.0.6261.70)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed53bf2e0d1766799b01cd6e9df5bc3e, clearElement {id=f.3070216EE462F7C511A1A69253781EDC.d.494F065854101785C3D252AC927FBCB4.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49167/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ed53bf2e0d1766799b01cd6e9df5bc3e)] -> xpath: //a[@href='/login']]
+Session ID: ed53bf2e0d1766799b01cd6e9df5bc3e
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:130)
+	at Steps.Login.messageShouldBeDisplayed(Login.java:77)
+	at ✽.Message Should Be Displayed 'incorrect email or Password'(file:///D:/demowebshop.tricentis.com/src/test/java/Features/LoginFeature.feature:8)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="295"><span class="badge log fail-bg mr-2">Fail</span>User login with different credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given user navigates to the login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters 'shahrukhkhan@gmail.com' and 'shahrukhkhan@12345'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And clicks the login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Message Should Be Displayed 'incorrect email or Password'</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=122.0.6261.70)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01637992a5e8485e79ff6a7ff30fe0cc, clearElement {id=f.61C6920EAA6676616E335D1AE645537D.d.4D9A3D2D63660F04D42014D159DE8CE2.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49243}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49243/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (01637992a5e8485e79ff6a7ff30fe0cc)] -> xpath: //a[@href='/login']]
+Session ID: 01637992a5e8485e79ff6a7ff30fe0cc
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:130)
+	at Steps.Login.messageShouldBeDisplayed(Login.java:77)
+	at ✽.Message Should Be Displayed 'incorrect email or Password'(file:///D:/demowebshop.tricentis.com/src/test/java/Features/LoginFeature.feature:8)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="305"><span class="badge log fail-bg mr-2">Fail</span>User login with different credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given user navigates to the login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters 'dhanushraja@gmail.com' and '1234'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And clicks the login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Message Should Be Displayed 'incorrect email or Password'</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=122.0.6261.70)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a19d8b657443510daa7b4fea280e699, clearElement {id=f.DA6E3042ED6C6211BC7481BD2A1D8CD7.d.1D747FBC10B5858B447019C2B5749F6A.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49319}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49319/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4a19d8b657443510daa7b4fea280e699)] -> xpath: //a[@href='/login']]
+Session ID: 4a19d8b657443510daa7b4fea280e699
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:130)
+	at Steps.Login.messageShouldBeDisplayed(Login.java:77)
+	at ✽.Message Should Be Displayed 'incorrect email or Password'(file:///D:/demowebshop.tricentis.com/src/test/java/Features/LoginFeature.feature:8)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="315"><span class="badge log fail-bg mr-2">Fail</span>User login with different credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given user navigates to the login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters 'dhanushraja@gmail.com' and '1234'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And clicks the login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Message Should Be Displayed 'incorrect email or Password'</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=122.0.6261.70)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ccb4bdefa9d7551bae635af08f4a3c1, clearElement {id=f.0C44B7ED5B2D6FCA87CB239EF5A5CD83.d.2A5DB3B81F3DC03C3D10C51C2F8025E6.e.75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49393}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49393/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0ccb4bdefa9d7551bae635af08f4a3c1)] -> xpath: //a[@href='/login']]
+Session ID: 0ccb4bdefa9d7551bae635af08f4a3c1
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:130)
+	at Steps.Login.messageShouldBeDisplayed(Login.java:77)
+	at ✽.Message Should Be Displayed 'incorrect email or Password'(file:///D:/demowebshop.tricentis.com/src/test/java/Features/LoginFeature.feature:8)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="325"><span class="badge log fail-bg mr-2">Fail</span>User login with different credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given user navigates to the login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters '' and ''</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And clicks the login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Message Should Be Displayed 'incorrect email or Password'</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=122.0.6261.70)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [88b005533c1d5a792b41d2381f1fa06c, clearElement {id=f.B489C165784321C93D3121301F703E1E.d.597609C129D53CFAED75F6AA3CD4AEA6.e.75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49467/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (88b005533c1d5a792b41d2381f1fa06c)] -> xpath: //a[@href='/login']]
+Session ID: 88b005533c1d5a792b41d2381f1fa06c
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:130)
+	at Steps.Login.messageShouldBeDisplayed(Login.java:77)
+	at ✽.Message Should Be Displayed 'incorrect email or Password'(file:///D:/demowebshop.tricentis.com/src/test/java/Features/LoginFeature.feature:8)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="335"><span class="badge log fail-bg mr-2">Fail</span>User login with different credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given user navigates to the login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters '' and ''</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And clicks the login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Message Should Be Displayed 'incorrect email or Password'</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=122.0.6261.70)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bca027a0a78a2900a6307e3d2a2a4204, clearElement {id=f.B636F8B114EA19F116126FE964C40C06.d.4CFE3C73CA87DFC00C87B8E375AB4A59.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49542}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49542/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bca027a0a78a2900a6307e3d2a2a4204)] -> xpath: //a[@href='/login']]
+Session ID: bca027a0a78a2900a6307e3d2a2a4204
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:130)
+	at Steps.Login.messageShouldBeDisplayed(Login.java:77)
+	at ✽.Message Should Be Displayed 'incorrect email or Password'(file:///D:/demowebshop.tricentis.com/src/test/java/Features/LoginFeature.feature:8)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="345"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">To Test DemowebShop Add/Remove from cart functionality</p>
+            <p class="text-sm">
+              <span>1:01:38 AM</span> / <span>00:01:35:167</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">To Test DemowebShop Add/Remove from cart functionality</h5>
+<span class='badge badge-success'>02.29.2024 1:01:38 AM</span>
+<span class='badge badge-danger'>02.29.2024 1:03:13 AM</span>
+<span class='badge badge-default'>00:01:35:167</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=345</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="346"><span class="badge log fail-bg mr-2">Fail</span>User confirms all books with "AddToCart" button</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Steps.Cart.userNavigatesToURL()">
+                <span>Given User navigates to the URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Cart.userPerformsLoginProcess()">
+                <span>When User performs the login process</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Cart.validateLoginProcess()">
+                <span>Then Validate the login is successful</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Cart.Userclickbookmenu()">
+                <span>And User clicks on book menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Steps.Cart.validateCartButtonForAllBooks()">
+                <span>Then User validates whether all books have addtocart button</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Scenario failed - Some products do not have the 'Add to Cart' button.
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Cart.validateCartButtonForAllBooks(Cart.java:89)
+	at ✽.User validates whether all books have addtocart button(file:///D:/demowebshop.tricentis.com/src/test/java/Features/CartFeature.feature:10)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="357"><span class="badge log fail-bg mr-2">Fail</span>User confirms all books with "AddToCart" button</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Steps.Cart.userNavigatesToURL()">
+                <span>Given User navigates to the URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Cart.userPerformsLoginProcess()">
+                <span>When User performs the login process</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Cart.validateLoginProcess()">
+                <span>Then Validate the login is successful</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Cart.Userclickbookmenu()">
+                <span>And User clicks on book menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Steps.Cart.validateCartButtonForAllBooks()">
+                <span>Then User validates whether all books have addtocart button</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Scenario failed - Some products do not have the 'Add to Cart' button.
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Cart.validateCartButtonForAllBooks(Cart.java:89)
+	at ✽.User validates whether all books have addtocart button(file:///D:/demowebshop.tricentis.com/src/test/java/Features/CartFeature.feature:10)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="368"><span class="badge log pass-bg mr-2">Pass</span>User adds the third book to the cart</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Steps.Cart.userNavigatesToURL()">
+                <span>Given User navigates to the URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Cart.userPerformsLoginProcess()">
+                <span>When User performs the login process</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Cart.validateLoginProcess()">
+                <span>Then Validate the login is successful</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Cart.Userclickbookmenu()">
+                <span>Given User clicks on book menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Cart.addthirdbooktocart()">
+                <span>And User add third book to cart</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Cart.validatethirdbook()">
+                <span>Then Validate the third book is successfully added to the cart</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="380"><span class="badge log pass-bg mr-2">Pass</span>User adds and deletes products from the cart</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Steps.Cart.userNavigatesToURL()">
+                <span>Given User navigates to the URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Cart.userPerformsLoginProcess()">
+                <span>When User performs the login process</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Cart.validateLoginProcess()">
+                <span>Then Validate the login is successful</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Cart.Userclickbookmenu()">
+                <span>Given User clicks on book menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Cart.addanythreeproducts()">
+                <span>And User adds any 3 products to the cart</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Cart.deletetwoproducts()">
+                <span>And User deletes any two products from the cart</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Cart.validateproductafterdelete()">
+                <span>Then Validate the cart after deleting the products</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="393"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">To Test DemoWebShop Wishlist Functionality</p>
+            <p class="text-sm">
+              <span>1:03:16 AM</span> / <span>00:00:20:821</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">To Test DemoWebShop Wishlist Functionality</h5>
+<span class='badge badge-success'>02.29.2024 1:03:16 AM</span>
+<span class='badge badge-danger'>02.29.2024 1:03:36 AM</span>
+<span class='badge badge-default'>00:00:20:821</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=393</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="394"><span class="badge log pass-bg mr-2">Pass</span>User can add and remove products from the wishlist</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Steps.WishList.user_navigates_to_the_url_demowebshop()">
+                <span>Given User navigates to the URL demowebshop</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.WishList.user_performs_the_login_process_with_credentials()">
+                <span>When User performs the login process with credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.WishList.validate_the_login_is_successful_or_not()">
+                <span>Then Validate the login is successful or not</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.WishList.the_user_is_on_the_demo_web_shop_homepage()">
+                <span>Given the user is on the Demo Web Shop homepage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.WishList.the_user_clicks_on(java.lang.String)">
+                <span>When the user clicks on "Digital Downloads"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.WishList.the_user_adds_products_to_the_wishlist()">
+                <span>Then the user adds products to the wishlist</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.WishList.the_user_goes_to_the_wishlist()">
+                <span>And the user goes to the Wishlist</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.WishList.the_user_removes_a_product_from_the_wishlist()">
+                <span>And the user removes a product from the Wishlist</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.WishList.the_wishlist_should_be_updated_accordingly()">
+                <span>Then the Wishlist should be updated accordingly</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="409"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">To Test DemoWebshop Checkout Functionality</p>
+            <p class="text-sm">
+              <span>1:03:38 AM</span> / <span>00:01:03:782</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">To Test DemoWebshop Checkout Functionality</h5>
+<span class='badge badge-success'>02.29.2024 1:03:38 AM</span>
+<span class='badge badge-danger'>02.29.2024 1:04:42 AM</span>
+<span class='badge badge-default'>00:01:03:782</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=409</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="410"><span class="badge log pass-bg mr-2">Pass</span>User completes the successful checkout using COD</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Steps.Checkout.user_navigates_to_the_url_demowebshop_tricentis()">
+                <span>Given User navigates to the URL demowebshop tricentis</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Checkout.user_performs_the_login_process_in_demowebshop()">
+                <span>When User performs the login process in demowebshop</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Checkout.validate_the_login_is_successful_or_not_in_demowebshop()">
+                <span>Then Validate the login is successful or not in demowebshop</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Checkout.user_clicks_on_book_menu_in_demowebshop()">
+                <span>Given User clicks on book menu in demowebshop</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Checkout.user_add_third_book_to_cart_in_demowebshop()">
+                <span>And User add third book to cart in demowebshop</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Checkout.user_clicks_on_the_checkbox_in_demowebshop()">
+                <span>When User clicks on the checkbox in demowebshop</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Checkout.user_should_able_to_checkout_in_demowebshop()">
+                <span>Then User should able to checkout in demowebshop</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Checkout.billing_information()">
+                <span>And billing information</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Checkout.enters_valid_shipping()">
+                <span>And enters valid shipping</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Checkout.select_shipping_type()">
+                <span>And select shipping type</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Checkout.selects_a_payment_method1()">
+                <span>And selects a payment method</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Checkout.completes_the_purchase_cod()">
+                <span>And completes the purchase cod</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Checkout.the_user_should_see_order_confirmation()">
+                <span>Then the user should see order confirmation</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="429"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">To Test DemoWebshop Community Poll Functionality</p>
+            <p class="text-sm">
+              <span>1:05:37 AM</span> / <span>00:01:16:701</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">To Test DemoWebshop Community Poll Functionality</h5>
+<span class='badge badge-success'>02.29.2024 1:05:37 AM</span>
+<span class='badge badge-danger'>02.29.2024 1:06:54 AM</span>
+<span class='badge badge-default'>00:01:16:701</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=429</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="430"><span class="badge log pass-bg mr-2">Pass</span>User to poll without selecting anything</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Steps.Poll.user_navigate_to_url()">
+                <span>Given User navigate to Url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Poll.click_on_vote_button_directly()">
+                <span>Then Click on vote button directly</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="438"><span class="badge log fail-bg mr-2">Fail</span>User to poll without Login</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Steps.Poll.user_navigate_to_url()">
+                <span>Given User navigate to Url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Poll.user_select_one_option_from_given_poll()">
+                <span>Then User select one option from given poll</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Steps.Poll.click_on_vote_button()">
+                <span>Then Click on vote button</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Only registered users can vote.
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at Steps.Poll.click_on_vote_button(Poll.java:66)
+	at ✽.Click on vote button(file:///D:/demowebshop.tricentis.com/src/test/java/Features/PollFeature.feature:11)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="447"><span class="badge log fail-bg mr-2">Fail</span>User to poll without Login</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Steps.Poll.user_navigate_to_url()">
+                <span>Given User navigate to Url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Steps.Poll.user_select_one_option_from_given_poll()">
+                <span>Then User select one option from given poll</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Steps.Poll.click_on_vote_button()">
+                <span>Then Click on vote button</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Only registered users can vote.
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at Steps.Poll.click_on_vote_button(Poll.java:66)
+	at ✽.Click on vote button(file:///D:/demowebshop.tricentis.com/src/test/java/Features/PollFeature.feature:11)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="456"><span class="badge log fail-bg mr-2">Fail</span>User to poll with login</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="457"><span class="badge log fail-bg mr-2">Fail</span>User to poll with login</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User navigate to Url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User performs Login 'iamalexanderwho@gmail.com' '12345678'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then User select one option from poll and vote</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: 7519 vote(s)...
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at Steps.Poll.user_select_one_option_from_poll_and_vote(Poll.java:90)
+	at ✽.User select one option from poll and vote(file:///D:/demowebshop.tricentis.com/src/test/java/Features/PollFeature.feature:15)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="466"><span class="badge log fail-bg mr-2">Fail</span>User to poll with login</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User navigate to Url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User performs Login 'iamalexanderwho@gmail.com' '12345678'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then User select one option from poll and vote</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: 7519 vote(s)...
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at Steps.Poll.user_select_one_option_from_poll_and_vote(Poll.java:90)
+	at ✽.User select one option from poll and vote(file:///D:/demowebshop.tricentis.com/src/test/java/Features/PollFeature.feature:15)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="475"><span class="badge log pass-bg mr-2">Pass</span>User to poll with login</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User navigate to Url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User performs Login 'fsdgdshfkbetyvcwexqtqdxeqw@gmail.com' '12345678'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User select one option from poll and vote</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="484"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">To Test DemoWebshop NewsLetter Subscription Functionality</p>
+            <p class="text-sm">
+              <span>1:06:57 AM</span> / <span>00:01:46:908</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">To Test DemoWebshop NewsLetter Subscription Functionality</h5>
+<span class='badge badge-success'>02.29.2024 1:06:57 AM</span>
+<span class='badge badge-danger'>02.29.2024 1:08:44 AM</span>
+<span class='badge badge-default'>00:01:46:908</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=484</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="485"><span class="badge log fail-bg mr-2">Fail</span>Testing of News Letter Subscription Page</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="486"><span class="badge log pass-bg mr-2">Pass</span>Testing of News Letter Subscription Page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I am on DemoWebShop Homepage launching url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I will be on Login Page and Capture the title of the page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on login link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I entered email id on the page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I entered password on the page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on sign up for our newsletter 'iamalexanderwho@gmail.com'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Subscribe</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And i get the result block</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I logout</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="502"><span class="badge log fail-bg mr-2">Fail</span>Testing of News Letter Subscription Page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given I am on DemoWebShop Homepage launching url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I will be on Login Page and Capture the title of the page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on login link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I entered email id on the page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I entered password on the page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on sign up for our newsletter '7777777777777777777777'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Subscribe</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And i get the result block</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I logout</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//a[@class='ico-logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50946}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50946/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.click(Unknown Source)
+	at Pages.SubscriptionPage.Click_Logout(SubscriptionPage.java:87)
+	at Steps.Subscription.i_logout(Subscription.java:107)
+	at ✽.I logout(file:///D:/demowebshop.tricentis.com/src/test/java/Features/SubscriptionFeature.feature:14)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="518"><span class="badge log fail-bg mr-2">Fail</span>Testing of News Letter Subscription Page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given I am on DemoWebShop Homepage launching url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I will be on Login Page and Capture the title of the page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on login link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I entered email id on the page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I entered password on the page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on sign up for our newsletter '7777777777777777777777'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Subscribe</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And i get the result block</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I logout</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//a[@class='ico-logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51037}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51037/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.click(Unknown Source)
+	at Pages.SubscriptionPage.Click_Logout(SubscriptionPage.java:87)
+	at Steps.Subscription.i_logout(Subscription.java:107)
+	at ✽.I logout(file:///D:/demowebshop.tricentis.com/src/test/java/Features/SubscriptionFeature.feature:14)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">7</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>5</span>
+</span>
+<p class="name">@PollTest</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@PollTest</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>5 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:05:37 AM</td>
+<td>
+<a href="#" class="linked" test-id='429' id='430'>User to poll without selecting anything</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebshop Community Poll Functionality.User to poll without selecting anything</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:05:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='429' id='438'>User to poll without Login</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebshop Community Poll Functionality.User to poll without Login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:06:05 AM</td>
+<td>
+<a href="#" class="linked" test-id='429' id='447'>User to poll without Login</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebshop Community Poll Functionality.User to poll without Login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:06:16 AM</td>
+<td>
+<a href="#" class="linked" test-id='429' id='456'>User to poll with login</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebshop Community Poll Functionality.User to poll with login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:06:16 AM</td>
+<td>
+<a href="#" class="linked" test-id='429' id='457'>User to poll with login</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebshop Community Poll Functionality.User to poll with login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:06:28 AM</td>
+<td>
+<a href="#" class="linked" test-id='429' id='466'>User to poll with login</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebshop Community Poll Functionality.User to poll with login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:06:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='429' id='475'>User to poll with login</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebshop Community Poll Functionality.User to poll with login</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@CartTest</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@CartTest</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:01:38 AM</td>
+<td>
+<a href="#" class="linked" test-id='345' id='346'>User confirms all books with "AddToCart" button</a>
+<div class="">
+<span class="badge badge-default">To Test DemowebShop Add/Remove from cart functionality.User confirms all books with "AddToCart" button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:02:03 AM</td>
+<td>
+<a href="#" class="linked" test-id='345' id='357'>User confirms all books with "AddToCart" button</a>
+<div class="">
+<span class="badge badge-default">To Test DemowebShop Add/Remove from cart functionality.User confirms all books with "AddToCart" button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:02:25 AM</td>
+<td>
+<a href="#" class="linked" test-id='345' id='368'>User adds the third book to the cart</a>
+<div class="">
+<span class="badge badge-default">To Test DemowebShop Add/Remove from cart functionality.User adds the third book to the cart</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:02:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='345' id='380'>User adds and deletes products from the cart</a>
+<div class="">
+<span class="badge badge-default">To Test DemowebShop Add/Remove from cart functionality.User adds and deletes products from the cart</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">@SubscriptionTest</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@SubscriptionTest</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:06:57 AM</td>
+<td>
+<a href="#" class="linked" test-id='484' id='485'>Testing of News Letter Subscription Page</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebshop NewsLetter Subscription Functionality.Testing of News Letter Subscription Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:06:57 AM</td>
+<td>
+<a href="#" class="linked" test-id='484' id='486'>Testing of News Letter Subscription Page</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebshop NewsLetter Subscription Functionality.Testing of News Letter Subscription Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:07:32 AM</td>
+<td>
+<a href="#" class="linked" test-id='484' id='502'>Testing of News Letter Subscription Page</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebshop NewsLetter Subscription Functionality.Testing of News Letter Subscription Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:08:08 AM</td>
+<td>
+<a href="#" class="linked" test-id='484' id='518'>Testing of News Letter Subscription Page</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebshop NewsLetter Subscription Functionality.Testing of News Letter Subscription Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>10</span>
+<span class='badge log badge-danger'>9</span>
+</span>
+<p class="name">@RegistrationTest</p>
+<p class="duration text-sm">19 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@RegistrationTest</h4>
+<span status="pass" class='badge log pass-bg'>10 passed</span>
+<span status="fail" class='badge log badge-danger'>9 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:57:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Register user with different data</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:57:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Register user with different data</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:57:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='4'>Register user with different data</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:58:02 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='33'>Register user with different data</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:58:02 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='34'>Register user with different data</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:58:13 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='63'>Register user with different data</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:58:13 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='64'>Register user with different data</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:58:24 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='93'>Register user with different data</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:58:24 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='94'>Register user with different data</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:58:35 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='123'>Register user with different data</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:58:35 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='124'>Register user with different data</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:58:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='153'>Register user with different data</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:58:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='154'>Register user with different data</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:58:56 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='183'>Register user with different data</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:58:56 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='184'>Register user with different data</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:59:07 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='213'>Register user with different data</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:59:07 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='214'>Register user with different data</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:59:20 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='243'>Register user with different data</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:59:20 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='244'>Register user with different data</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@WishListTest</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@WishListTest</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:03:16 AM</td>
+<td>
+<a href="#" class="linked" test-id='393' id='394'>User can add and remove products from the wishlist</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebShop Wishlist Functionality.User can add and remove products from the wishlist</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@CheckoutTest</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@CheckoutTest</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:03:38 AM</td>
+<td>
+<a href="#" class="linked" test-id='409' id='410'>User completes the successful checkout using COD</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebshop Checkout Functionality.User completes the successful checkout using COD</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>7</span>
+</span>
+<p class="name">@LoginTest</p>
+<p class="duration text-sm">8 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@LoginTest</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>7 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:59:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='273' id='274'>User login with different credentials</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebShop Login functionality.User login with different credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:59:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='273' id='275'>User login with different credentials</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebShop Login functionality.User login with different credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:59:53 AM</td>
+<td>
+<a href="#" class="linked" test-id='273' id='285'>User login with different credentials</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebShop Login functionality.User login with different credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:00:09 AM</td>
+<td>
+<a href="#" class="linked" test-id='273' id='295'>User login with different credentials</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebShop Login functionality.User login with different credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:00:27 AM</td>
+<td>
+<a href="#" class="linked" test-id='273' id='305'>User login with different credentials</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebShop Login functionality.User login with different credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:00:45 AM</td>
+<td>
+<a href="#" class="linked" test-id='273' id='315'>User login with different credentials</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebShop Login functionality.User login with different credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:01:01 AM</td>
+<td>
+<a href="#" class="linked" test-id='273' id='325'>User login with different credentials</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebShop Login functionality.User login with different credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:01:18 AM</td>
+<td>
+<a href="#" class="linked" test-id='273' id='335'>User login with different credentials</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebShop Login functionality.User login with different credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchSessionException</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchSessionException</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:08:00 AM</td>
+<td>
+<a href="#" class="linked" test-id='484' id='512'>And I logout</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebshop NewsLetter Subscription Functionality.Testing of News Letter Subscription Page.And I logout</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:08:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='484' id='528'>And I logout</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebshop NewsLetter Subscription Functionality.Testing of News Letter Subscription Page.And I logout</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>14</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">14 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>14 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:58:08 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='52'>And the user clicks on register</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data.And the user clicks on register</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:58:19 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='82'>And the user clicks on register</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data.And the user clicks on register</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:58:30 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='112'>And the user clicks on register</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data.And the user clicks on register</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:58:40 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='142'>And the user clicks on register</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data.And the user clicks on register</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:58:51 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='172'>And the user clicks on register</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data.And the user clicks on register</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:59:02 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='202'>And the user clicks on register</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data.And the user clicks on register</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:59:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='232'>And the user clicks on register</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data.And the user clicks on register</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:59:25 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='262'>And the user clicks on register</a>
+<div class="">
+<span class="badge badge-default">To Test the DemoWebShop Register functionality.Register user with different data.And the user clicks on register</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:01:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='345' id='351'>Then User validates whether all books have addtocart button</a>
+<div class="">
+<span class="badge badge-default">To Test DemowebShop Add/Remove from cart functionality.User confirms all books with "AddToCart" button.Then User validates whether all books have addtocart button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:02:13 AM</td>
+<td>
+<a href="#" class="linked" test-id='345' id='362'>Then User validates whether all books have addtocart button</a>
+<div class="">
+<span class="badge badge-default">To Test DemowebShop Add/Remove from cart functionality.User confirms all books with "AddToCart" button.Then User validates whether all books have addtocart button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:05:58 AM</td>
+<td>
+<a href="#" class="linked" test-id='429' id='441'>Then Click on vote button</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebshop Community Poll Functionality.User to poll without Login.Then Click on vote button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:06:09 AM</td>
+<td>
+<a href="#" class="linked" test-id='429' id='450'>Then Click on vote button</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebshop Community Poll Functionality.User to poll without Login.Then Click on vote button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:06:23 AM</td>
+<td>
+<a href="#" class="linked" test-id='429' id='460'>Then User select one option from poll and vote</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebshop Community Poll Functionality.User to poll with login.Then User select one option from poll and vote</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:06:35 AM</td>
+<td>
+<a href="#" class="linked" test-id='429' id='469'>Then User select one option from poll and vote</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebshop Community Poll Functionality.User to poll with login.Then User select one option from poll and vote</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>6</span>
+</span>
+<p class="name">org.openqa.selenium.InvalidElementStateException</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.InvalidElementStateException</h4>
+<span status="fail" class='badge log badge-danger'>6 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:00:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='273' id='289'>Then Message Should Be Displayed 'incorrect email or Password'</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebShop Login functionality.User login with different credentials.Then Message Should Be Displayed 'incorrect email or Password'</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:00:21 AM</td>
+<td>
+<a href="#" class="linked" test-id='273' id='299'>Then Message Should Be Displayed 'incorrect email or Password'</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebShop Login functionality.User login with different credentials.Then Message Should Be Displayed 'incorrect email or Password'</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:00:39 AM</td>
+<td>
+<a href="#" class="linked" test-id='273' id='309'>Then Message Should Be Displayed 'incorrect email or Password'</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebShop Login functionality.User login with different credentials.Then Message Should Be Displayed 'incorrect email or Password'</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:00:56 AM</td>
+<td>
+<a href="#" class="linked" test-id='273' id='319'>Then Message Should Be Displayed 'incorrect email or Password'</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebShop Login functionality.User login with different credentials.Then Message Should Be Displayed 'incorrect email or Password'</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:01:13 AM</td>
+<td>
+<a href="#" class="linked" test-id='273' id='329'>Then Message Should Be Displayed 'incorrect email or Password'</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebShop Login functionality.User login with different credentials.Then Message Should Be Displayed 'incorrect email or Password'</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>01:01:30 AM</td>
+<td>
+<a href="#" class="linked" test-id='273' id='339'>Then Message Should Be Displayed 'incorrect email or Password'</a>
+<div class="">
+<span class="badge badge-default">To Test DemoWebShop Login functionality.User login with different credentials.Then Message Should Be Displayed 'incorrect email or Password'</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
