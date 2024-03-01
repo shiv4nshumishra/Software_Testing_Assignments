@@ -2,15 +2,12 @@ package stepdefinitions;
 
 import static org.junit.Assert.assertEquals;
 
-import java.io.File;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import com.cucumber.listener.Reporter;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;

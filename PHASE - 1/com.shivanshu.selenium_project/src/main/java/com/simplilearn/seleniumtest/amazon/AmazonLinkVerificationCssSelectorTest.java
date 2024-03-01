@@ -9,11 +9,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-/**
- * This class demonstrate test CSS Selector *
- * 
- * @author khanw
- */
 public class AmazonLinkVerificationCssSelectorTest {
 
 	static WebDriver driver;

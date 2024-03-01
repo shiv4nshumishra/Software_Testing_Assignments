@@ -3,8 +3,6 @@ package com.shivanshu.JUnit;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 
-import com.shivanshu.JUnit.AgeCalculator;
-
 // Tests with TDD for all possible use case for retirement calculator.
 public class RetirementCalculatorTest {
 

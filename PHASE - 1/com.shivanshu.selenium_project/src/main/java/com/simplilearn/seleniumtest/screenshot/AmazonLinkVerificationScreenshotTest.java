@@ -42,11 +42,6 @@ public class AmazonLinkVerificationScreenshotTest {
 		driver.close();
 	}
 
-	/**
-	 * Verify the Best seller link.
-	 * 
-	 * @throws InterruptedException
-	 */
 	private static void linkTest1() throws InterruptedException {
 
 		Thread.sleep(1000);
@@ -72,11 +67,6 @@ public class AmazonLinkVerificationScreenshotTest {
 		System.out.println("Actual Title : " + actualTitle);
 	}
 
-	/**
-	 * Verify the Todays deals link.
-	 * 
-	 * @throws InterruptedException
-	 */
 	private static void linkTest2() throws InterruptedException {
 
 		Thread.sleep(1000);

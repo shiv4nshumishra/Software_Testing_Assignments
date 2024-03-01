@@ -5,8 +5,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-import com.shivanshu.JUnit.ArCalculator;
-
 public class ArCalculatorParametrisedTest {
 
 	private ArCalculator arCalculator = new ArCalculator();

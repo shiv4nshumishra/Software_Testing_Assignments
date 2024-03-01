@@ -33,10 +33,6 @@ public class AmazonSearchTest {
 		driver.close();
 	}
 
-	/**
-	 * Search for a product.
-	 * @throws InterruptedException 
-	 */
 	private static void testSearch1() throws InterruptedException {
 
 		WebElement searchBox = driver.findElement(By.id("twotabsearchtextbox"));
@@ -59,10 +55,6 @@ public class AmazonSearchTest {
 		System.out.println("Actual Title : " + actualTitle);
 	}
 	
-	/**
-	 * Search for a product.
-	 * @throws InterruptedException 
-	 */
 	private static void testSearch2() throws InterruptedException {
 
 		WebElement searchBox = driver.findElement(By.id("twotabsearchtextbox"));

@@ -8,8 +8,6 @@ import java.util.Collection;
 import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.TestFactory;
 
-import com.shivanshu.JUnit.ArCalculator;
-
 public class ArCalculatorDynamicTest {
 
 	private ArCalculator arCalculator = new ArCalculator();
@@ -36,6 +34,4 @@ public class ArCalculatorDynamicTest {
 					}))
 		.toList();
 	}
-	
-	// TODO : WA DT for all arithmetic operation
 }

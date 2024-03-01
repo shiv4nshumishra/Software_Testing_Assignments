@@ -1,30 +1,30 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.shivanshu.JUnit</groupId>
-  <artifactId>com.shivanshu.JUnit</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+	<groupId>com.shivanshu.JUnit</groupId>
+	<artifactId>com.shivanshu.JUnit</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 
-  <name>com.shivanshu.JUnit</name>
-  <url>http://maven.apache.org</url>
+	<name>com.shivanshu.JUnit</name>
+	<url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.target>8</maven.compiler.target>
 		<maven.compiler.source>8</maven.compiler.source>
-  </properties>
+	</properties>
 
-  <dependencies>
-    <!-- junit-jupiter-engine -->
+	<dependencies>
+		<!-- junit-jupiter-engine -->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-engine</artifactId>
 			<version>5.10.1</version>
 			<scope>test</scope>
 		</dependency>
-
 		<!-- junit-jupiter-api -->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
@@ -32,7 +32,6 @@
 			<version>5.10.1</version>
 			<scope>test</scope>
 		</dependency>
-
 		<!-- junit-jupiter-params -->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
@@ -40,22 +39,14 @@
 			<version>5.10.1</version>
 			<scope>test</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
 			<version>3.12.0</version>
 		</dependency>
-		<dependency>
-			<groupId>com.simplilearn.unittest</groupId>
-			<artifactId>
-				phase2-unittesting-junit5-22-12-2023
-			</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-  </dependencies>
-  
-  <build>
+	</dependencies>
+
+	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

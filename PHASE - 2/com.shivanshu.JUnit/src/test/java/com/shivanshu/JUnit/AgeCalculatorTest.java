@@ -5,8 +5,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import com.shivanshu.JUnit.AgeCalculator;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 @DisplayName("Test Age calculator")

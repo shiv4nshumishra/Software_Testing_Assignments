@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class AmazonLinkVerificationTest {
 
@@ -37,11 +36,6 @@ public class AmazonLinkVerificationTest {
 		driver.close();
 	}
 
-	/**
-	 * Verify the Best seller link.
-	 * 
-	 * @throws InterruptedException
-	 */
 	private static void linkTest1() throws InterruptedException {
 
 		Thread.sleep(1000);
@@ -66,11 +60,6 @@ public class AmazonLinkVerificationTest {
 		System.out.println("Actual Title : " + actualTitle);
 	}
 
-	/**
-	 * Verify the Todays deals link.
-	 * 
-	 * @throws InterruptedException
-	 */
 	private static void linkTest2() throws InterruptedException {
 
 		Thread.sleep(1000);
@@ -79,7 +68,6 @@ public class AmazonLinkVerificationTest {
 
 		link.click();
 
-		// add delay
 		Thread.sleep(1000);
 
 		String expectedTitle = "Amazon.in - Deals";

@@ -10,8 +10,6 @@ import org.junit.jupiter.api.condition.DisabledOnOs;
 import org.junit.jupiter.api.condition.JRE;
 import org.junit.jupiter.api.condition.OS;
 
-import com.shivanshu.JUnit.AgeCalculator;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 @DisplayName("Test Age calculator")

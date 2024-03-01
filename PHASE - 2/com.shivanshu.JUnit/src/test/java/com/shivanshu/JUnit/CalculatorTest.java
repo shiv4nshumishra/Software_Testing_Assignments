@@ -5,8 +5,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import com.simplilearn.unittest.Calculator;
-
 public class CalculatorTest {
 
 	@Test

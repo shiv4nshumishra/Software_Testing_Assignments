@@ -47,12 +47,10 @@ public class ResetLoginFormSteps {
 			Thread.sleep(1000);
 			driver.findElement(By.name("Reset")).click();
 		}
-		
 	}
 
 	@Then("^Reset the credentials$")
 	public void reset_the_credentials() {
 		driver.findElement(By.name("Reset")).click();
 	}
-
 }

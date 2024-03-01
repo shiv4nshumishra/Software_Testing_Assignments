@@ -52,7 +52,7 @@ public class TakeBrowserWindowScreenShotTest {
 		driver.findElement(By.name("login")).submit();
 
 		takeScreenShot("facebook-login.png");
-		
+
 		// evaluate a failure login test
 		WebElement errorMsg = wait.until(ExpectedConditions
 				.visibilityOfElementLocated(By.cssSelector("#loginform > div:nth-child(12) > div._9ay7")));
@@ -68,22 +68,21 @@ public class TakeBrowserWindowScreenShotTest {
 		System.out.println("Expected Error Text : " + errorText);
 		System.out.println("Actual Error Text : " + errorMsg.getText());
 	}
-	
+
 	public static void takeScreenShot(String fileName) {
 		// 1. type cast driver instance too take screen shot
-		TakesScreenshot tsc = (TakesScreenshot) driver ;
-		
+		TakesScreenshot tsc = (TakesScreenshot) driver;
+
 		// 2. call take screen shot method with file type
 		File src = tsc.getScreenshotAs(OutputType.FILE);
-		
-		// 3. create  file  with screen shot
+
+		// 3. create file with screen shot
 		try {
-			FileHandler.copy(src, new File("output-screenshot\\"+fileName));
+			FileHandler.copy(src, new File("output-screenshot\\" + fileName));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
+
 	}
-	
-	
+
 }
