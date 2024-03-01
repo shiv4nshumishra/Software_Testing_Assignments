@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="65.813">
+    <testcase classname="To Test the DemoWebShop Register functionality" name="Register user with different data" time="15.888">
+        <failure message="Failure got to catch block" type="java.lang.AssertionError"><![CDATA[Given the user is on the home page..........................................passed
+When the user clicks on the register link...................................passed
+And the user selects gender.................................................passed
+And the user enters First Name from Excel 0.................................passed
+And the user enters Last Name from Excel 0..................................passed
+And the user enters email from Excel 0......................................passed
+And the user enters password from Excel 0...................................passed
+And the user enters confirm password from Excel 0...........................passed
+And the user clicks on register.............................................failed
+
+StackTrace:
+java.lang.AssertionError: Failure got to catch block
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+	at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+]]></failure>
+    </testcase>
+    <testcase classname="To Test the DemoWebShop Register functionality" name="Register user with different data 2" time="11.636">
+        <system-out><![CDATA[Given the user is on the home page..........................................passed
+When the user clicks on the register link...................................passed
+And the user selects gender.................................................passed
+And the user enters First Name from Excel 1.................................passed
+And the user enters Last Name from Excel 1..................................passed
+And the user enters email from Excel 1......................................passed
+And the user enters password from Excel 1...................................passed
+And the user enters confirm password from Excel 1...........................passed
+And the user clicks on register.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To Test the DemoWebShop Register functionality" name="Register user with different data 3" time="11.899">
+        <system-out><![CDATA[Given the user is on the home page..........................................passed
+When the user clicks on the register link...................................passed
+And the user selects gender.................................................passed
+And the user enters First Name from Excel 2.................................passed
+And the user enters Last Name from Excel 2..................................passed
+And the user enters email from Excel 2......................................passed
+And the user enters password from Excel 2...................................passed
+And the user enters confirm password from Excel 2...........................passed
+And the user clicks on register.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To Test the DemoWebShop Register functionality" name="Register user with different data 4" time="13.428">
+        <failure message="Failure got to catch block" type="java.lang.AssertionError"><![CDATA[Given the user is on the home page..........................................passed
+When the user clicks on the register link...................................passed
+And the user selects gender.................................................passed
+And the user enters First Name from Excel 3.................................passed
+And the user enters Last Name from Excel 3..................................passed
+And the user enters email from Excel 3......................................passed
+And the user enters password from Excel 3...................................passed
+And the user enters confirm password from Excel 3...........................passed
+And the user clicks on register.............................................failed
+
+StackTrace:
+java.lang.AssertionError: Failure got to catch block
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+	at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+]]></failure>
+    </testcase>
+    <testcase classname="To Test the DemoWebShop Register functionality" name="Register user with different data 5" time="12.579">
+        <failure message="Failure got to catch block" type="java.lang.AssertionError"><![CDATA[Given the user is on the home page..........................................passed
+When the user clicks on the register link...................................passed
+And the user selects gender.................................................passed
+And the user enters First Name from Excel 4.................................passed
+And the user enters Last Name from Excel 4..................................passed
+And the user enters email from Excel 4......................................passed
+And the user enters password from Excel 4...................................passed
+And the user enters confirm password from Excel 4...........................passed
+And the user clicks on register.............................................failed
+
+StackTrace:
+java.lang.AssertionError: Failure got to catch block
+	at org.testng.Assert.fail(Assert.java:110)
+	at Steps.Registration.the_user_clicks_on_register(Registration.java:123)
+	at ✽.the user clicks on register(file:///D:/demowebshop.tricentis.com/src/test/java/Features/RegistrationFeature.feature:13)
+]]></failure>
+    </testcase>
+</testsuite>
